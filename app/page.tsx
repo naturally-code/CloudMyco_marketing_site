@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { Shield, Database, Cpu, CheckCircle2, ArrowRight, Globe, Lock, Zap, Building2, Scale } from 'lucide-react'
+import { Database, CheckCircle2, ArrowRight, Lock, Zap, Building2, Scale, Mail } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -19,7 +19,8 @@ export default function Home() {
               <Link href="/sovereignty" className="text-gray-600 hover:text-gray-900 transition-colors">Sovereignty</Link>
               <Link href="/docs" className="text-gray-600 hover:text-gray-900 transition-colors">Docs</Link>
               <Link href="/verify" className="text-gray-600 hover:text-gray-900 transition-colors">Verify</Link>
-              <Link href="/request-access" className="px-4 py-2 bg-carbon-600 text-white rounded-lg hover:bg-carbon-700 transition-colors">
+              <Link href="/contact" className="text-gray-600 hover:text-gray-900 transition-colors">Contact</Link>
+              <Link href="/contact" className="px-4 py-2 bg-carbon-600 text-white rounded-lg hover:bg-carbon-700 transition-colors">
                 Request Access
               </Link>
             </div>
@@ -47,12 +48,12 @@ export default function Home() {
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
               Turnkey Article 6 infrastructure for national carbon registries.
               <br />
-              <strong className="text-gray-900">Make compliance automatic. Make fraud expensive. Launch in 2 weeks.</strong>
+              <strong className="text-gray-900">Ensure compliance. Maintain data integrity. Launch in 8 weeks.</strong>
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link 
-                href="/request-access"
+                href="/contact"
                 className="inline-flex items-center px-8 py-4 bg-carbon-600 text-white rounded-lg hover:bg-carbon-700 transition-all hover:scale-105 font-semibold text-lg shadow-lg hover:shadow-xl"
               >
                 Request Pilot Access
@@ -67,7 +68,7 @@ export default function Home() {
             </div>
 
             <p className="mt-8 text-sm text-gray-500">
-              Trusted by pilot registries in Costa Rica and California
+              World Bank Climate Warehouse compatible • UNFCCC Article 6 compliant • SOC 2 certified
             </p>
           </div>
         </div>
@@ -82,11 +83,11 @@ export default function Home() {
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               CloudMyco applies the same principles used in core banking infrastructure to carbon markets: 
-              data sovereignty, regulatory compliance, and cryptographic trust.
+              data sovereignty, regulatory compliance, and cryptographic verification.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {/* Data Sovereignty */}
             <div className="group p-8 rounded-2xl border-2 border-gray-200 hover:border-carbon-500 hover:shadow-xl transition-all">
               <div className="w-12 h-12 bg-carbon-100 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
@@ -136,53 +137,31 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-
-            {/* Game-Theoretic Trust */}
-            <div className="group p-8 rounded-2xl border-2 border-gray-200 hover:border-purple-500 hover:shadow-xl transition-all">
-              <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                <Shield className="w-6 h-6 text-purple-600" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Game-Theoretic Trust</h3>
-              <p className="text-gray-600 mb-4">
-                Honesty is the Nash equilibrium. Lying requires coordination, is detectable, and carries permanent reputation damage.
-              </p>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-start">
-                  <CheckCircle2 className="w-4 h-4 text-purple-600 mr-2 mt-0.5 flex-shrink-0" />
-                  <span>Blockchain makes fraud expensive</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle2 className="w-4 h-4 text-purple-600 mr-2 mt-0.5 flex-shrink-0" />
-                  <span>AI detection + reputation scoring</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle2 className="w-4 h-4 text-purple-600 mr-2 mt-0.5 flex-shrink-0" />
-                  <span>Compliance easier than cheating</span>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* How It Works - The Four Hyphae */}
+      {/* How It Works - The Hyphae */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-carbon-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">The Four Hyphae</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Core Infrastructure</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Like mycelium connecting a forest ecosystem, CloudMyco's architecture connects evidence, claims, verification, and issuance into an unbreakable chain of trust.
+              Like mycelium connecting a forest ecosystem, CloudMyco's architecture creates an unbreakable chain of evidence and accountability.
             </p>
           </div>
 
           <div className="space-y-12">
-            {/* Data Hypha */}
-            <div className="flex flex-col md:flex-row items-center gap-8 p-8 bg-white rounded-2xl border border-gray-200 shadow-lg">
+            {/* Data Hypha - PRODUCTION */}
+            <div className="flex flex-col md:flex-row items-center gap-8 p-8 bg-white rounded-2xl border-2 border-carbon-500 shadow-lg">
               <div className="w-16 h-16 bg-carbon-100 rounded-xl flex items-center justify-center flex-shrink-0">
                 <Database className="w-8 h-8 text-carbon-600" />
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Data Hypha → Evidence Provenance</h3>
+                <div className="flex items-center gap-3 mb-2">
+                  <h3 className="text-2xl font-bold text-gray-900">Data Hypha → Evidence Provenance</h3>
+                  <span className="px-3 py-1 bg-carbon-600 text-white rounded-full text-xs font-semibold">PRODUCTION</span>
+                </div>
                 <p className="text-gray-600 mb-3">
                   Every file hashed, sealed, blockchain-anchored. Tamper-evident proof of "what existed when."
                 </p>
@@ -190,18 +169,21 @@ export default function Home() {
                   <span className="px-3 py-1 bg-carbon-100 text-carbon-800 rounded-full text-sm">SHA-256 hashing</span>
                   <span className="px-3 py-1 bg-carbon-100 text-carbon-800 rounded-full text-sm">Merkle trees</span>
                   <span className="px-3 py-1 bg-carbon-100 text-carbon-800 rounded-full text-sm">Blockchain anchoring</span>
-                  <span className="px-3 py-1 bg-carbon-100 text-carbon-800 rounded-full text-sm">"Lost spreadsheet" impossible</span>
+                  <span className="px-3 py-1 bg-carbon-100 text-carbon-800 rounded-full text-sm">Immutable audit trail</span>
                 </div>
               </div>
             </div>
 
-            {/* Claim Hypha */}
-            <div className="flex flex-col md:flex-row items-center gap-8 p-8 bg-white rounded-2xl border border-gray-200 shadow-lg">
+            {/* Claim Hypha - PRODUCTION */}
+            <div className="flex flex-col md:flex-row items-center gap-8 p-8 bg-white rounded-2xl border-2 border-blockchain-500 shadow-lg">
               <div className="w-16 h-16 bg-blockchain-100 rounded-xl flex items-center justify-center flex-shrink-0">
                 <Scale className="w-8 h-8 text-blockchain-600" />
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Claim Hypha → Assertion + Accountability</h3>
+                <div className="flex items-center gap-3 mb-2">
+                  <h3 className="text-2xl font-bold text-gray-900">Claim Hypha → Assertion + Accountability</h3>
+                  <span className="px-3 py-1 bg-blockchain-600 text-white rounded-full text-xs font-semibold">PRODUCTION</span>
+                </div>
                 <p className="text-gray-600 mb-3">
                   Carbon claims cryptographically linked to evidence. Amendments leave permanent footprints. Multi-sig verification required.
                 </p>
@@ -214,41 +196,35 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Model Hypha */}
-            <div className="flex flex-col md:flex-row items-center gap-8 p-8 bg-white rounded-2xl border border-gray-200 shadow-lg">
+            {/* Model Hypha - BETA */}
+            <div className="flex flex-col md:flex-row items-center gap-8 p-8 bg-white rounded-2xl border border-gray-300 shadow-lg opacity-75">
               <div className="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Cpu className="w-8 h-8 text-purple-600" />
+                <Zap className="w-8 h-8 text-purple-600" />
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Model Hypha → AI Fraud Detection</h3>
-                <p className="text-gray-600 mb-3">
-                  Local prediction engine (your servers). Federated learning (privacy-preserving). Good reputation = fast-track approval.
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">Runs on-premise</span>
-                  <span className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">Federated learning</span>
-                  <span className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">No data exfiltration</span>
-                  <span className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">Reputation scoring</span>
+                <div className="flex items-center gap-3 mb-2">
+                  <h3 className="text-2xl font-bold text-gray-900">Model Hypha → Advanced Analytics</h3>
+                  <span className="px-3 py-1 bg-purple-200 text-purple-900 rounded-full text-xs font-semibold">BETA</span>
                 </div>
+                <p className="text-gray-600 mb-3">
+                  Machine learning capabilities for pattern detection and process optimization. Currently in testing phase.
+                </p>
               </div>
             </div>
 
-            {/* Registry Hypha */}
-            <div className="flex flex-col md:flex-row items-center gap-8 p-8 bg-white rounded-2xl border border-gray-200 shadow-lg">
+            {/* Registry Hypha - BETA */}
+            <div className="flex flex-col md:flex-row items-center gap-8 p-8 bg-white rounded-2xl border border-gray-300 shadow-lg opacity-75">
               <div className="w-16 h-16 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                <Globe className="w-8 h-8 text-green-600" />
+                <CheckCircle2 className="w-8 h-8 text-green-600" />
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Registry Hypha → Issuance + Retirement</h3>
-                <p className="text-gray-600 mb-3">
-                  ERC-1155 carbon credits (traceable). Multi-sig issuance (no single point of failure). Permanent retirement records.
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">ERC-1155 tokens</span>
-                  <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Multi-sig governance</span>
-                  <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Auditable issuance</span>
-                  <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Immutable retirement</span>
+                <div className="flex items-center gap-3 mb-2">
+                  <h3 className="text-2xl font-bold text-gray-900">Credit Hypha → Issuance + Retirement</h3>
+                  <span className="px-3 py-1 bg-green-200 text-green-900 rounded-full text-xs font-semibold">BETA</span>
                 </div>
+                <p className="text-gray-600 mb-3">
+                  Digital carbon credit management system. Tokenization and retirement tracking currently in development.
+                </p>
               </div>
             </div>
           </div>
@@ -278,7 +254,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-red-500 mr-2">✗</span>
-                  <span>Hire carbon experts (scarce talent)</span>
+                  <span>Hire specialized carbon experts (scarce talent)</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-red-500 mr-2">✗</span>
@@ -296,7 +272,7 @@ export default function Home() {
             </div>
 
             <div className="p-6 border-l-4 border-blockchain-600 bg-blockchain-50 rounded-r-lg">
-              <h3 className="text-xl font-bold text-gray-900 mb-3">CloudMyco (2-4 Weeks)</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">CloudMyco (8 Weeks)</h3>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
                   <CheckCircle2 className="w-5 h-5 text-carbon-600 mr-2 flex-shrink-0" />
@@ -335,7 +311,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link 
-              href="/request-access"
+              href="/contact"
               className="inline-flex items-center px-8 py-4 bg-white text-carbon-700 rounded-lg hover:bg-carbon-50 transition-all hover:scale-105 font-semibold text-lg shadow-lg"
             >
               Request Pilot Access
@@ -384,11 +360,16 @@ export default function Home() {
               </ul>
             </div>
             <div>
-              <h4 className="text-white font-semibold mb-3">Company</h4>
+              <h4 className="text-white font-semibold mb-3">Contact</h4>
               <ul className="space-y-2 text-sm">
                 <li><Link href="/about" className="hover:text-white transition-colors">About</Link></li>
                 <li><Link href="/mission" className="hover:text-white transition-colors">Mission</Link></li>
-                <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
+                <li>
+                  <a href="mailto:contact@cloudmyco.com" className="hover:text-white transition-colors flex items-center">
+                    <Mail className="w-4 h-4 mr-1" />
+                    contact@cloudmyco.com
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
