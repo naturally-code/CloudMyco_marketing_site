@@ -3,34 +3,9 @@ import Link from 'next/link';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
-  
-  const sections = [
-    {
-      title: "Product",
-      links: [
-        { href: "/product/overview", label: "Overview" },
-        { href: "/docs", label: "Documentation" },
-      ],
-    },
-    {
-      title: "Resources",
-      links: [
-        { href: "/resources/API-references", label: "API References" },
-      ],
-    },
-    {
-      title: "Company",
-      links: [
-        { href: "/about", label: "About Us" },
-        { href: "/mission", label: "Mission" },
-        { href: "/contact", label: "Contact" },
-      ],
-    },
-  ];
 
   return (
     <footer className="bg-white border-t border-gray-200">
-      {/* Main footer content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Logo and brief description */}
         <div className="mb-8">
@@ -44,25 +19,61 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Navigation sections - Using the sections array only */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {sections.map((sec) => (
-            <div key={sec.title}>
-              <h4 className="text-gray-900 font-semibold mb-4 text-lg">{sec.title}</h4>
-              <ul className="space-y-2">
-                {sec.links.map((ln) => (
-                  <li key={ln.href}>
-                    <Link
-                      href={ln.href}
-                      className="text-gray-600 hover:text-carbon-600 transition-colors duration-200"
-                    >
-                      {ln.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+        {/* Navigation sections */}
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div>
+            <h4 className="text-gray-900 font-semibold mb-4 text-lg">Product</h4>
+            <ul className="space-y-2">
+              <li>
+                <Link href="/product/overview" className="text-gray-600 hover:text-carbon-600 transition-colors">
+                  Overview
+                </Link>
+              </li>
+              <li>
+                <Link href="/docs" className="text-gray-600 hover:text-carbon-600 transition-colors">
+                  Documentation
+                </Link>
+              </li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 className="text-gray-900 font-semibold mb-4 text-lg">Resources</h4>
+            <ul className="space-y-2">
+              <li>
+                <Link href="/resources/API-references" className="text-gray-600 hover:text-carbon-600 transition-colors">
+                  API References
+                </Link>
+              </li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 className="text-gray-900 font-semibold mb-4 text-lg">Company</h4>
+            <ul className="space-y-2">
+              <li>
+                <Link href="/about" className="text-gray-600 hover:text-carbon-600 transition-colors">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link href="/mission" className="text-gray-600 hover:text-carbon-600 transition-colors">
+                  Mission
+                </Link>
+              </li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 className="text-gray-900 font-semibold mb-4 text-lg">Contact</h4>
+            <ul className="space-y-2">
+              <li>
+                <Link href="/contact" className="text-gray-600 hover:text-carbon-600 transition-colors">
+                  Contact Us
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
 
         {/* Social links - Light theme */}

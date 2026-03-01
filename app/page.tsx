@@ -423,41 +423,62 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Navigation sections */}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-              <div>
-                <h4 className="text-gray-900 font-semibold mb-4 text-lg">Product</h4>
-                <ul className="space-y-2">
-                  <li><Link href="/product" className="text-gray-600 hover:text-carbon-600 transition-colors">Overview</Link></li>
-                  <li><Link href="/product/features" className="text-gray-600 hover:text-carbon-600 transition-colors">Features</Link></li>
-                  <li><Link href="/docs" className="text-gray-600 hover:text-carbon-600 transition-colors">Documentation</Link></li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="text-gray-900 font-semibold mb-4 text-lg">Resources</h4>
-                <ul className="space-y-2">
-                  <li><Link href="/resources/documentation" className="text-gray-600 hover:text-carbon-600 transition-colors">Documentation</Link></li>
-                  <li><Link href="/resources/api-references" className="text-gray-600 hover:text-carbon-600 transition-colors">API References</Link></li>
-                  <li><Link href="/resources/faq" className="text-gray-600 hover:text-carbon-600 transition-colors">FAQ</Link></li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="text-gray-900 font-semibold mb-4 text-lg">Company</h4>
-                <ul className="space-y-2">
-                  <li><Link href="/about" className="text-gray-600 hover:text-carbon-600 transition-colors">About Us</Link></li>
-                  <li><Link href="/mission" className="text-gray-600 hover:text-carbon-600 transition-colors">Mission</Link></li>
-                  <li><Link href="/blog" className="text-gray-600 hover:text-carbon-600 transition-colors">Blog</Link></li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="text-gray-900 font-semibold mb-4 text-lg">Contact</h4>
-                <ul className="space-y-2">
-                  <li><Link href="/contact" className="text-gray-600 hover:text-carbon-600 transition-colors">Contact Us</Link></li>
-                  <li><Link href="/privacy" className="text-gray-600 hover:text-carbon-600 transition-colors">Privacy Policy</Link></li>
-                  <li><Link href="/terms" className="text-gray-600 hover:text-carbon-600 transition-colors">Terms of Service</Link></li>
-                </ul>
-              </div>
-            </div>
+{/* Navigation sections */}
+<div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+  <div>
+    <h4 className="text-gray-900 font-semibold mb-4 text-lg">Product</h4>
+    <ul className="space-y-2">
+      <li>
+        <Link href="/product/overview" className="text-gray-600 hover:text-carbon-600 transition-colors">
+          Overview
+        </Link>
+      </li>
+      <li>
+        <Link href="/docs" className="text-gray-600 hover:text-carbon-600 transition-colors">
+          Documentation
+        </Link>
+      </li>
+    </ul>
+  </div>
+  
+  <div>
+    <h4 className="text-gray-900 font-semibold mb-4 text-lg">Resources</h4>
+    <ul className="space-y-2">
+      <li>
+        <Link href="/resources/API-references" className="text-gray-600 hover:text-carbon-600 transition-colors">
+          API References
+        </Link>
+      </li>
+    </ul>
+  </div>
+  
+  <div>
+    <h4 className="text-gray-900 font-semibold mb-4 text-lg">Company</h4>
+    <ul className="space-y-2">
+      <li>
+        <Link href="/about" className="text-gray-600 hover:text-carbon-600 transition-colors">
+          About Us
+        </Link>
+      </li>
+      <li>
+        <Link href="/mission" className="text-gray-600 hover:text-carbon-600 transition-colors">
+          Mission
+        </Link>
+      </li>
+    </ul>
+  </div>
+  
+  <div>
+    <h4 className="text-gray-900 font-semibold mb-4 text-lg">Contact</h4>
+    <ul className="space-y-2">
+      <li>
+        <Link href="/contact" className="text-gray-600 hover:text-carbon-600 transition-colors">
+          Contact Us
+        </Link>
+      </li>
+    </ul>
+  </div>
+</div>
 
             {/* Social links - Light theme */}
             <div className="mt-8 pt-8 border-t border-gray-200">
