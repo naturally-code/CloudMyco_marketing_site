@@ -15,8 +15,7 @@ export default function Footer() {
     {
       title: "Resources",
       links: [
-        { href: "/docs", label: "Documentation" },
-        { href: "/resources", label: "Resources" }, // Points to main resources page
+        { href: "/resources/API-references", label: "API References" },
       ],
     },
     {
@@ -45,8 +44,8 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Navigation sections */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        {/* Navigation sections - Using the sections array only */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {sections.map((sec) => (
             <div key={sec.title}>
               <h4 className="text-gray-900 font-semibold mb-4 text-lg">{sec.title}</h4>
@@ -91,7 +90,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Copyright bar */}
+      {/* Copyright bar - Light theme */}
       <div className="bg-gray-50 border-t border-gray-200 py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-600">
           <p>© {currentYear} CloudMyco. All rights reserved. | Open source under Apache 2.0</p>
