@@ -5,7 +5,6 @@ import NavBar from '../../../components/NavBar'
 import Footer from '../../../components/Footer'
 import { ArrowLeft, Database, Scale, Zap, CheckCircle2, Lock, Server, Shield, Layers, Users, Key, Globe } from 'lucide-react'
 
-
 export default function ProductPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-carbon-50">
@@ -25,11 +24,11 @@ export default function ProductPage() {
             Product Overview
           </h1>
           
-          <p className="text-2xl text-gray-600 mb-4 max-w-4xl font-semibold">
+          <p className="text-2xl text-gray-800 mb-4 max-w-4xl font-semibold">
             Licensed Blockchain Infrastructure for National Carbon Markets
           </p>
           
-          <p className="text-xl text-gray-600 mb-12 max-w-4xl leading-relaxed">
+          <p className="text-xl text-gray-700 mb-12 max-w-4xl leading-relaxed">
             CloudMyco is sovereign-licensed, banking-grade software that enables countries to operate secure, defensible, and monetizable carbon markets. It is the records backbone of a national carbon economy.
           </p>
 
@@ -48,19 +47,19 @@ export default function ProductPage() {
                   <div className="grid md:grid-cols-2 gap-3">
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-carbon-600 rounded-full mt-2 mr-2"></div>
-                      <span className="text-gray-700">Seals carbon project data to a distributed ledger</span>
+                      <span className="text-gray-800">Seals carbon project data to a distributed ledger</span>
                     </div>
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-carbon-600 rounded-full mt-2 mr-2"></div>
-                      <span className="text-gray-700">Creates immutable credit lifecycle records</span>
+                      <span className="text-gray-800">Creates immutable credit lifecycle records</span>
                     </div>
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-carbon-600 rounded-full mt-2 mr-2"></div>
-                      <span className="text-gray-700">Maintains tamper-evident submission histories</span>
+                      <span className="text-gray-800">Maintains tamper-evident submission histories</span>
                     </div>
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-carbon-600 rounded-full mt-2 mr-2"></div>
-                      <span className="text-gray-700">Prevents retroactive data manipulation</span>
+                      <span className="text-gray-800">Prevents retroactive data manipulation</span>
                     </div>
                   </div>
                 </div>
@@ -77,41 +76,41 @@ export default function ProductPage() {
                   <h3 className="text-2xl font-bold text-gray-900 mb-3">2. Credit Lifecycle Infrastructure</h3>
                   <div className="grid md:grid-cols-2 gap-3">
                     <div>
-                      <div className="font-semibold text-gray-800 mb-2">Core Actions:</div>
+                      <div className="font-semibold text-gray-900 mb-2">Core Actions:</div>
                       <div className="space-y-1">
                         <div className="flex items-start">
                           <div className="w-1.5 h-1.5 bg-blockchain-600 rounded-full mt-2 mr-2"></div>
-                          <span>Issuance</span>
+                          <span className="text-gray-800">Issuance</span>
                         </div>
                         <div className="flex items-start">
                           <div className="w-1.5 h-1.5 bg-blockchain-600 rounded-full mt-2 mr-2"></div>
-                          <span>Transfer</span>
+                          <span className="text-gray-800">Transfer</span>
                         </div>
                         <div className="flex items-start">
                           <div className="w-1.5 h-1.5 bg-blockchain-600 rounded-full mt-2 mr-2"></div>
-                          <span>Retirement</span>
+                          <span className="text-gray-800">Retirement</span>
                         </div>
                         <div className="flex items-start">
                           <div className="w-1.5 h-1.5 bg-blockchain-600 rounded-full mt-2 mr-2"></div>
-                          <span>Cancellation</span>
+                          <span className="text-gray-800">Cancellation</span>
                         </div>
                       </div>
                     </div>
                     <div>
-                      <div className="font-semibold text-gray-800 mb-2">Safeguards:</div>
+                      <div className="font-semibold text-gray-900 mb-2">Safeguards:</div>
                       <div className="space-y-1">
                         <div className="flex items-start">
                           <div className="w-1.5 h-1.5 bg-blockchain-600 rounded-full mt-2 mr-2"></div>
-                          <span>Version tracking</span>
+                          <span className="text-gray-800">Version tracking</span>
                         </div>
                         <div className="flex items-start">
                           <div className="w-1.5 h-1.5 bg-blockchain-600 rounded-full mt-2 mr-2"></div>
-                          <span>Deduplication safeguards</span>
+                          <span className="text-gray-800">Deduplication safeguards</span>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <p className="text-gray-600 mt-3 italic">
+                  <p className="text-gray-700 mt-3 italic">
                     Each action is cryptographically anchored and independently verifiable.
                   </p>
                 </div>
@@ -129,26 +128,26 @@ export default function ProductPage() {
                   <div className="grid md:grid-cols-2 gap-3">
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-purple-600 rounded-full mt-2 mr-2"></div>
-                      <span>Role-based access control</span>
+                      <span className="text-gray-800">Role-based access control</span>
                     </div>
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-purple-600 rounded-full mt-2 mr-2"></div>
-                      <span>Field-level submission comparisons</span>
+                      <span className="text-gray-800">Field-level submission comparisons</span>
                     </div>
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-purple-600 rounded-full mt-2 mr-2"></div>
-                      <span>RFI workflows</span>
+                      <span className="text-gray-800">RFI workflows</span>
                     </div>
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-purple-600 rounded-full mt-2 mr-2"></div>
-                      <span>Workpaper packaging</span>
+                      <span className="text-gray-800">Workpaper packaging</span>
                     </div>
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-purple-600 rounded-full mt-2 mr-2"></div>
-                      <span>Audit dashboards</span>
+                      <span className="text-gray-800">Audit dashboards</span>
                     </div>
                   </div>
-                  <p className="text-gray-600 mt-3">
+                  <p className="text-gray-700 mt-3">
                     Designed for regulatory oversight and financial defensibility.
                   </p>
                 </div>
@@ -166,26 +165,26 @@ export default function ProductPage() {
                   <div className="grid md:grid-cols-2 gap-3">
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-green-600 rounded-full mt-2 mr-2"></div>
-                      <span>National rule customization</span>
+                      <span className="text-gray-800">National rule customization</span>
                     </div>
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-green-600 rounded-full mt-2 mr-2"></div>
-                      <span>Policy-driven issuance logic</span>
+                      <span className="text-gray-800">Policy-driven issuance logic</span>
                     </div>
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-green-600 rounded-full mt-2 mr-2"></div>
-                      <span>Article 6 readiness</span>
+                      <span className="text-gray-800">Article 6 readiness</span>
                     </div>
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-green-600 rounded-full mt-2 mr-2"></div>
-                      <span>Controlled interoperability with voluntary standards</span>
+                      <span className="text-gray-800">Controlled interoperability with voluntary standards</span>
                     </div>
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-green-600 rounded-full mt-2 mr-2"></div>
-                      <span>Cross-registry compatibility</span>
+                      <span className="text-gray-800">Cross-registry compatibility</span>
                     </div>
                   </div>
-                  <p className="text-gray-600 mt-3">
+                  <p className="text-gray-700 mt-3">
                     Governments maintain control of their carbon economy while benefiting from distributed infrastructure resilience.
                   </p>
                 </div>
@@ -203,31 +202,31 @@ export default function ProductPage() {
                   <div className="grid md:grid-cols-2 gap-3">
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-amber-600 rounded-full mt-2 mr-2"></div>
-                      <span>Multi-factor authentication</span>
+                      <span className="text-gray-800">Multi-factor authentication</span>
                     </div>
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-amber-600 rounded-full mt-2 mr-2"></div>
-                      <span>Key management & cryptographic signing</span>
+                      <span className="text-gray-800">Key management & cryptographic signing</span>
                     </div>
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-amber-600 rounded-full mt-2 mr-2"></div>
-                      <span>Blockchain anchoring</span>
+                      <span className="text-gray-800">Blockchain anchoring</span>
                     </div>
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-amber-600 rounded-full mt-2 mr-2"></div>
-                      <span>WORM-grade archival retention</span>
+                      <span className="text-gray-800">WORM-grade archival retention</span>
                     </div>
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-amber-600 rounded-full mt-2 mr-2"></div>
-                      <span>Secure API access for licensed partners</span>
+                      <span className="text-gray-800">Secure API access for licensed partners</span>
                     </div>
                     <div className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-amber-600 rounded-full mt-2 mr-2"></div>
-                      <span>Structured audit logging</span>
+                      <span className="text-gray-800">Structured audit logging</span>
                     </div>
                   </div>
                   <div className="mt-4 p-4 bg-amber-50 rounded-lg border border-amber-200">
-                    <p className="text-gray-800 font-medium">
+                    <p className="text-gray-900 font-medium">
                       Carbon markets are financial markets.<br />
                       Financial markets require banking-grade infrastructure.
                     </p>
@@ -240,32 +239,32 @@ export default function ProductPage() {
           {/* Built For Section */}
           <div className="bg-gradient-to-br from-carbon-600 to-blockchain-600 rounded-2xl p-8 text-white mb-16">
             <h2 className="text-3xl font-bold mb-6">Built for Emerging & Expanding Carbon Economies</h2>
-            <p className="text-xl text-carbon-50 mb-6">
+            <p className="text-xl text-carbon-100 mb-6">
               CloudMyco is designed for:
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="flex items-start">
                 <div className="w-2 h-2 bg-white rounded-full mt-2 mr-3"></div>
-                <span>Countries launching domestic ETS systems</span>
+                <span className="text-white">Countries launching domestic ETS systems</span>
               </div>
               <div className="flex items-start">
                 <div className="w-2 h-2 bg-white rounded-full mt-2 mr-3"></div>
-                <span>Ministries establishing national carbon registries</span>
+                <span className="text-white">Ministries establishing national carbon registries</span>
               </div>
               <div className="flex items-start">
                 <div className="w-2 h-2 bg-white rounded-full mt-2 mr-3"></div>
-                <span>Sovereign Article 6 frameworks</span>
+                <span className="text-white">Sovereign Article 6 frameworks</span>
               </div>
               <div className="flex items-start">
                 <div className="w-2 h-2 bg-white rounded-full mt-2 mr-3"></div>
-                <span>Emerging markets seeking climate monetization</span>
+                <span className="text-white">Emerging markets seeking climate monetization</span>
               </div>
               <div className="flex items-start">
                 <div className="w-2 h-2 bg-white rounded-full mt-2 mr-3"></div>
-                <span>Governments modernizing legacy registry systems</span>
+                <span className="text-white">Governments modernizing legacy registry systems</span>
               </div>
             </div>
-            <p className="mt-6 text-carbon-50 border-t border-carbon-500 pt-4">
+            <p className="mt-6 text-carbon-100 border-t border-carbon-500 pt-4">
               Instead of fragmented systems built over several years, governments deploy a complete sovereign carbon infrastructure stack in eight weeks.
             </p>
           </div>
@@ -273,30 +272,30 @@ export default function ProductPage() {
           {/* Why It Matters */}
           <div className="bg-white rounded-2xl border-2 border-carbon-500 p-8 mb-16 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Why It Matters</h2>
-            <p className="text-lg text-gray-600 mb-6">
+            <p className="text-lg text-gray-700 mb-6">
               Without secure infrastructure, carbon markets remain political. With blockchain-anchored financial infrastructure, carbon becomes measurable, governable, and monetizable.
             </p>
-            <p className="text-lg text-gray-700 font-semibold mb-4">CloudMyco enables nations to:</p>
+            <p className="text-lg text-gray-900 font-semibold mb-4">CloudMyco enables nations to:</p>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="flex items-start">
                 <div className="w-1.5 h-1.5 bg-carbon-600 rounded-full mt-2 mr-3"></div>
-                <span>Quantify their sequestration capacity</span>
+                <span className="text-gray-800">Quantify their sequestration capacity</span>
               </div>
               <div className="flex items-start">
                 <div className="w-1.5 h-1.5 bg-carbon-600 rounded-full mt-2 mr-3"></div>
-                <span>Control and monetize domestic carbon assets</span>
+                <span className="text-gray-800">Control and monetize domestic carbon assets</span>
               </div>
               <div className="flex items-start">
                 <div className="w-1.5 h-1.5 bg-carbon-600 rounded-full mt-2 mr-3"></div>
-                <span>Strengthen internal economic resilience</span>
+                <span className="text-gray-800">Strengthen internal economic resilience</span>
               </div>
               <div className="flex items-start">
                 <div className="w-1.5 h-1.5 bg-carbon-600 rounded-full mt-2 mr-3"></div>
-                <span>Participate in global markets from a position of sovereignty</span>
+                <span className="text-gray-800">Participate in global markets from a position of sovereignty</span>
               </div>
             </div>
             <div className="mt-6 p-4 bg-carbon-50 rounded-lg border border-carbon-200">
-              <p className="text-xl font-light italic text-gray-700">
+              <p className="text-xl font-light italic text-gray-800">
                 Climate ambition requires financial architecture.<br />
                 <span className="font-semibold not-italic">CloudMyco provides that architecture.</span>
               </p>
@@ -311,30 +310,30 @@ export default function ProductPage() {
                 <h2 className="text-2xl font-bold text-gray-900">Infrastructure Requirements</h2>
               </div>
               
-              <ul className="space-y-3 text-gray-600">
+              <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-carbon-600 font-bold mr-2">•</span>
-                  <span><strong>Compute:</strong> 5 servers (32 cores, 128GB RAM each)</span>
+                  <span><strong className="text-gray-900">Compute:</strong> 5 servers (32 cores, 128GB RAM each)</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-carbon-600 font-bold mr-2">•</span>
-                  <span><strong>Database:</strong> 2 PostgreSQL servers (with replication)</span>
+                  <span><strong className="text-gray-900">Database:</strong> 2 PostgreSQL servers (with replication)</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-carbon-600 font-bold mr-2">•</span>
-                  <span><strong>Storage:</strong> 100TB object storage (MinIO, encrypted)</span>
+                  <span><strong className="text-gray-900">Storage:</strong> 100TB object storage (MinIO, encrypted)</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-carbon-600 font-bold mr-2">•</span>
-                  <span><strong>Blockchain:</strong> Polygon CDK validator node</span>
+                  <span><strong className="text-gray-900">Blockchain:</strong> Polygon CDK validator node</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-carbon-600 font-bold mr-2">•</span>
-                  <span><strong>Network:</strong> Redundant firewall, 1Gbps internet</span>
+                  <span><strong className="text-gray-900">Network:</strong> Redundant firewall, 1Gbps internet</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-carbon-600 font-bold mr-2">•</span>
-                  <span><strong>Cost:</strong> $250k-$500k hardware + $5k-$20k/month operations</span>
+                  <span><strong className="text-gray-900">Cost:</strong> $250k-$500k hardware + $5k-$20k/month operations</span>
                 </li>
               </ul>
             </div>
@@ -345,26 +344,26 @@ export default function ProductPage() {
                 <h2 className="text-2xl font-bold text-gray-900">Security Features</h2>
               </div>
               
-              <ul className="space-y-3 text-gray-600">
+              <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <Lock className="w-5 h-5 text-blockchain-600 mr-2 flex-shrink-0 mt-0.5" />
-                  <span><strong>At Rest:</strong> AES-256 encryption, country-held keys</span>
+                  <span><strong className="text-gray-900">At Rest:</strong> AES-256 encryption, country-held keys</span>
                 </li>
                 <li className="flex items-start">
                   <Lock className="w-5 h-5 text-blockchain-600 mr-2 flex-shrink-0 mt-0.5" />
-                  <span><strong>In Transit:</strong> TLS 1.3, mutual TLS for services</span>
+                  <span><strong className="text-gray-900">In Transit:</strong> TLS 1.3, mutual TLS for services</span>
                 </li>
                 <li className="flex items-start">
                   <Lock className="w-5 h-5 text-blockchain-600 mr-2 flex-shrink-0 mt-0.5" />
-                  <span><strong>Access:</strong> Multi-factor authentication, RBAC</span>
+                  <span><strong className="text-gray-900">Access:</strong> Multi-factor authentication, RBAC</span>
                 </li>
                 <li className="flex items-start">
                   <Lock className="w-5 h-5 text-blockchain-600 mr-2 flex-shrink-0 mt-0.5" />
-                  <span><strong>Audit:</strong> Tamper-proof logs, blockchain-sealed daily</span>
+                  <span><strong className="text-gray-900">Audit:</strong> Tamper-proof logs, blockchain-sealed daily</span>
                 </li>
                 <li className="flex items-start">
                   <Lock className="w-5 h-5 text-blockchain-600 mr-2 flex-shrink-0 mt-0.5" />
-                  <span><strong>Compliance:</strong> SOC 2 Type II certified</span>
+                  <span><strong className="text-gray-900">Compliance:</strong> SOC 2 Type II certified</span>
                 </li>
               </ul>
             </div>
@@ -399,7 +398,7 @@ export default function ProductPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">Software</h3>
-                <ul className="space-y-2 text-gray-600">
+                <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start">
                     <CheckCircle2 className="w-5 h-5 text-carbon-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>Complete CloudMyco Node software suite</span>
@@ -421,7 +420,7 @@ export default function ProductPage() {
 
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">Services</h3>
-                <ul className="space-y-2 text-gray-600">
+                <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start">
                     <CheckCircle2 className="w-5 h-5 text-blockchain-600 mr-2 flex-shrink-0 mt-0.5" />
                     <span>On-site installation support</span>
@@ -446,7 +445,7 @@ export default function ProductPage() {
           {/* CTA */}
           <div className="text-center">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Ready to Deploy?</h2>
-            <p className="text-lg text-gray-600 mb-6">
+            <p className="text-lg text-gray-700 mb-6">
               Request technical documentation or schedule a consultation with our team.
             </p>
             <Link 
