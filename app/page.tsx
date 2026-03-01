@@ -93,7 +93,7 @@ export default function Home() {
             <div className="text-center max-w-4xl mx-auto">
               {/* Logo above hero title */}
               <div className="flex justify-center mb-6">
-                <img src="/icon.png" alt="CloudMyco" className="h-20 w-20" />
+                <img src="/icon.png" alt="CloudMyco" className="h-32 w-32 mx-auto mb-6" />
               </div>
               
               <div className="inline-flex items-center space-x-2 px-4 py-2 bg-carbon-100 text-carbon-800 rounded-full text-sm font-medium mb-6">
