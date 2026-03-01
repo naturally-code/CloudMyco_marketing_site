@@ -9,8 +9,6 @@ export default function Footer() {
       title: "Product",
       links: [
         { href: "/product", label: "Overview" },
-        { href: "/product/features", label: "Features" },
-        { href: "/product/pricing", label: "Pricing" },
         { href: "/docs", label: "Documentation" },
       ],
     },
@@ -19,8 +17,7 @@ export default function Footer() {
       links: [
         { href: "/resources/documentation", label: "Documentation" },
         { href: "/resources/api-references", label: "API References" },
-        { href: "/resources/guides", label: "Guides" },
-        { href: "/resources/faq", label: "FAQ" },
+        
       ],
     },
     {
@@ -28,7 +25,6 @@ export default function Footer() {
       links: [
         { href: "/about", label: "About Us" },
         { href: "/mission", label: "Mission" },
-        { href: "/blog", label: "Blog" },
         { href: "/contact", label: "Contact" },
       ],
     },

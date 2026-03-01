@@ -9,7 +9,7 @@ export default function NavBar() {
   
   const links = [
     { href: "/", label: "Home" },
-    { href: "/product", label: "Product" },
+    { href: "/product/", label: "Product" },
     { href: "/docs", label: "Docs" },
     { href: "/contact", label: "Contact" },
     // Request Access goes to the same contact page
