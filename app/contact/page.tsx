@@ -2,7 +2,8 @@
 
 import Link from 'next/link'
 import { Mail, ArrowLeft, Building2, Globe } from 'lucide-react'
-import NavBar from '@/components/NavBar'
+import NavBar from '../../components/NavBar'
+import Footer from '../../components/Footer'
 
 export default function ContactPage() {
   return (
@@ -109,19 +110,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-gray-400 py-12 mt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <div className="flex items-center justify-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-br from-carbon-600 to-blockchain-600 rounded-lg"></div>
-              <span className="text-lg font-bold text-white">CloudMyco</span>
-            </div>
-            <p className="text-sm">© 2026 CloudMyco. Open source under Apache 2.0.</p>
-            <p className="text-sm mt-2">Built for sovereign nations. Owned by governments. Operated independently.</p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }

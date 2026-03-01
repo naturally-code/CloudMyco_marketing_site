@@ -58,7 +58,7 @@ export default function Home() {
             <div className="flex justify-between items-center h-16">
               {/* Desktop links */}
               <div className="hidden md:flex items-center space-x-8">
-                <Link href="/product" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
+                <Link href="/product/overview" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
                   Product
                 </Link>
                 <Link href="/docs" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
