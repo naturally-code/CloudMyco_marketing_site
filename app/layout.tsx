@@ -49,8 +49,6 @@ export default function RootLayout({
       </head>
 
       <body className="font-sans antialiased bg-gray-50 min-h-screen flex flex-col">
-        {/* Global navigation */}
-        <NavBar />
 
         {/* Main content area – keep it centered and padded */}
         <main className="flex-grow container mx-auto px-4 py-8">{children}</main>
