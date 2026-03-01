@@ -8,16 +8,15 @@ export default function Footer() {
     {
       title: "Product",
       links: [
-        { href: "/product", label: "Overview" },
+        { href: "/product/overview", label: "Overview" },
         { href: "/docs", label: "Documentation" },
       ],
     },
     {
       title: "Resources",
       links: [
-        { href: "/resources/documentation", label: "Documentation" },
-        { href: "/resources/api-references", label: "API References" },
-        
+        { href: "/docs", label: "Documentation" },
+        { href: "/resources", label: "Resources" }, // Points to main resources page
       ],
     },
     {
@@ -46,7 +45,7 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Navigation sections - Updated to 4 columns for better spacing */}
+        {/* Navigation sections */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {sections.map((sec) => (
             <div key={sec.title}>
@@ -92,7 +91,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Copyright bar - Light theme */}
+      {/* Copyright bar */}
       <div className="bg-gray-50 border-t border-gray-200 py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-600">
           <p>© {currentYear} CloudMyco. All rights reserved. | Open source under Apache 2.0</p>

@@ -2,28 +2,12 @@
 
 import Link from 'next/link'
 import { Mail, ArrowLeft, Building2, Globe } from 'lucide-react'
+import NavBar from '@/components/NavBar'
 
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-carbon-50">
-      {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-gray-200 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-carbon-600 to-blockchain-600 rounded-lg"></div>
-              <span className="text-xl font-bold text-gray-900">CloudMyco</span>
-            </Link>
-            <div className="hidden md:flex items-center space-x-8">
-              <Link href="/product" className="text-gray-600 hover:text-gray-900 transition-colors">Product</Link>
-              <Link href="/sovereignty" className="text-gray-600 hover:text-gray-900 transition-colors">Sovereignty</Link>
-              <Link href="/docs" className="text-gray-600 hover:text-gray-900 transition-colors">Docs</Link>
-              <Link href="/verify" className="text-gray-600 hover:text-gray-900 transition-colors">Verify</Link>
-              <Link href="/contact" className="text-gray-900 font-semibold">Contact</Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <NavBar />
 
       {/* Hero */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
