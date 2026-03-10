@@ -52,7 +52,6 @@ export default function ServicesPage() {
                     <span className="text-gray-700">Develop tailored infrastructure roadmap and technology requirements</span>
                   </li>
                 </ul>
-                <p className="text-sm text-gray-500 mt-4">Duration: 4-6 weeks</p>
               </div>
             </div>
           </div>
@@ -80,7 +79,6 @@ export default function ServicesPage() {
                     <span className="text-gray-700">Provide unbiased, independent recommendations</span>
                   </li>
                 </ul>
-                <p className="text-sm text-gray-500 mt-4">Duration: 8-12 weeks</p>
               </div>
             </div>
           </div>
@@ -108,7 +106,6 @@ export default function ServicesPage() {
                     <span className="text-gray-700">Validate security architecture and data sovereignty requirements</span>
                   </li>
                 </ul>
-                <p className="text-sm text-gray-500 mt-4">Duration: 3-6 months</p>
               </div>
             </div>
           </div>
@@ -136,7 +133,6 @@ export default function ServicesPage() {
                     <span className="text-gray-700">Establish governance frameworks for long-term success</span>
                   </li>
                 </ul>
-                <p className="text-sm text-gray-500 mt-4">Duration: 4-8 weeks</p>
               </div>
             </div>
           </div>
@@ -151,7 +147,7 @@ export default function ServicesPage() {
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-2">Specialized</h3>
-                <p className="text-carbon-100">Carbon registry infrastructure is our only focus—not a side practice.</p>
+                <p className="text-carbon-100">Carbon registry infrastructure is our only focus not a side practice.</p>
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-2">Sovereignty-First</h3>

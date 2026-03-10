@@ -87,14 +87,14 @@ export default function AboutPage() {
                 <div className="w-6 h-6 bg-carbon-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                   <span className="text-white text-sm">✓</span>
                 </div>
-                <p className="text-lg text-gray-700"><span className="font-semibold">Independent:</span> We answer to one master—our clients' long-term success. No vendor partnerships, no referral fees, no hidden agendas.</p>
+                <p className="text-lg text-gray-700"><span className="font-semibold">Independent:</span> No vendor partnerships, no referral fees, no hidden agendas.</p>
               </div>
               
               <div className="flex items-start gap-4">
                 <div className="w-6 h-6 bg-carbon-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                   <span className="text-white text-sm">✓</span>
                 </div>
-                <p className="text-lg text-gray-700"><span className="font-semibold">Sovereignty-First:</span> Every recommendation prioritizes national control. Your data, your keys, your jurisdiction—always.</p>
+                <p className="text-lg text-gray-700"><span className="font-semibold">Sovereignty-First:</span> Every recommendation prioritizes national control. Your data, your keys, your jurisdiction always.</p>
               </div>
               
               <div className="flex items-start gap-4">
@@ -112,7 +112,7 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <h3 className="text-xl font-bold mb-2">No Vendor Bias</h3>
-                <p className="text-carbon-100">When advice comes from someone selling software, can you trust it? We never take commissions—so you get the truth.</p>
+                <p className="text-carbon-100">When advice comes from someone selling software, can you trust it? We never take commissions so you get the truth.</p>
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-2">Deep Specialization</h3>
@@ -157,7 +157,7 @@ export default function AboutPage() {
             <div className="border-l-4 border-green-600 pl-6">
               <h3 className="text-xl font-bold text-gray-900 mb-2">Partnership</h3>
               <p className="text-gray-700">
-                We walk alongside you—from strategy through deployment and beyond. Your success is our success.
+                We walk alongside you from strategy through deployment and beyond. Your success is our success.
               </p>
             </div>
           </div>

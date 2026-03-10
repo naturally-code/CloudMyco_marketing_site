@@ -32,12 +32,6 @@ export default function Home() {
         <meta property="og:description" content="Independent guidance for nations building sovereign carbon registries. Strategy, vendor selection, deployment oversight, and capacity building." />
         <meta property="og:image" content="https://cloudmyco.com/icon.png" />
         
-        {/* Twitter - Keeping only essential tags, removing links */}
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://cloudmyco.com/" />
-        <meta property="twitter:title" content="CloudMyco | Independent Sovereign Carbon Infrastructure Advisory" />
-        <meta property="twitter:description" content="Independent guidance for nations building sovereign carbon registries. Strategy, vendor selection, deployment oversight, and capacity building." />
-        <meta property="twitter:image" content="https://cloudmyco.com/icon.png" />
         
         {/* Additional SEO tags */}
         <meta name="keywords" content="carbon markets, Article 6, UNFCCC, carbon registry, blockchain, data sovereignty, climate finance, advisory, consulting" />
@@ -302,7 +296,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Deep Specialization</h3>
                 <p className="text-gray-600">
-                  Carbon registry infrastructure is our only focus—not a side practice or one of many services.
+                  Carbon registry infrastructure is our only focus not a side practice or one of many services.
                 </p>
               </div>
 
@@ -363,7 +357,7 @@ export default function Home() {
                 <ul className="space-y-3 text-gray-600">
                   <li className="flex items-start">
                     <CheckCircle2 className="w-5 h-5 text-carbon-600 mr-2 flex-shrink-0" />
-                    You own everything—data, keys, infrastructure
+                    You own everything data, keys, infrastructure
                   </li>
                   <li className="flex items-start">
                     <CheckCircle2 className="w-5 h-5 text-carbon-600 mr-2 flex-shrink-0" />

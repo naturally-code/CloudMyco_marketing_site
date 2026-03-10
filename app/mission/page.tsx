@@ -30,13 +30,13 @@ export default function MissionPage() {
           <div className="bg-white rounded-2xl border-2 border-carbon-500 p-8 mb-12 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Why We Exist</h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              Carbon markets have a trust problem. When registries depend on foreign SaaS platforms or vendors with conflicting interests, countries surrender control of their most sensitive environmental data. This isn't just a technical issue—it's a sovereignty issue.
+              Carbon markets have a trust problem. When registries depend on foreign SaaS platforms or vendors with conflicting interests, countries surrender control of their most sensitive environmental data. This isn't just a technical issue it's a sovereignty issue.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              We believe carbon registries should operate like central bank systems: owned and controlled by governments, with compliance built in. But countries shouldn't have to navigate this complexity alone—or rely on advice from companies trying to sell them software.
+              We believe carbon registries should operate like central bank systems: owned and controlled by governments, with compliance built in. But countries shouldn't have to navigate this complexity alone or rely on advice from companies trying to sell them software.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              CloudMyco exists to fill that gap. We provide independent, unbiased expertise that puts national sovereignty first—because the only person who should control your carbon economy is you.
+              CloudMyco exists to fill that gap. We provide independent, unbiased expertise that puts national sovereignty first because the only person who should control your carbon economy is you.
             </p>
           </div>
 
@@ -49,7 +49,7 @@ export default function MissionPage() {
                 <Shield className="w-6 h-6 text-carbon-600" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">True Independence</h3>
-              <p className="text-gray-700">We don't build, sell, or take commissions on software. Our only loyalty is to your nation's long-term success.</p>
+              <p className="text-gray-700">We don't build, sell, or take commissions on software. Our only loyalty is to your nation's long term success.</p>
             </div>
 
             <div className="bg-white p-6 rounded-xl border border-gray-200 hover:border-carbon-500 transition-colors">
@@ -57,7 +57,7 @@ export default function MissionPage() {
                 <Globe className="w-6 h-6 text-blockchain-600" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Sovereignty First</h3>
-              <p className="text-gray-700">Every recommendation prioritizes national control. Your data, your keys, your jurisdiction—always.</p>
+              <p className="text-gray-700">Every recommendation prioritizes national control. Your data, your keys, your jurisdiction always.</p>
             </div>
 
             <div className="bg-white p-6 rounded-xl border border-gray-200 hover:border-carbon-500 transition-colors">
@@ -65,7 +65,7 @@ export default function MissionPage() {
                 <Target className="w-6 h-6 text-purple-600" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Deep Specialization</h3>
-              <p className="text-gray-700">Carbon registry infrastructure is our only focus—not a side practice or one of many services.</p>
+              <p className="text-gray-700">Carbon registry infrastructure is our only focus not a side practice or one of many services.</p>
             </div>
 
             <div className="bg-white p-6 rounded-xl border border-gray-200 hover:border-carbon-500 transition-colors">
@@ -93,7 +93,7 @@ export default function MissionPage() {
                 <div className="w-6 h-6 bg-carbon-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                   <span className="text-white text-sm">✓</span>
                 </div>
-                <p className="text-lg text-gray-700"><span className="font-semibold">Sovereignty is non-negotiable.</span> Your data, your rules, your control—no exceptions.</p>
+                <p className="text-lg text-gray-700"><span className="font-semibold">Sovereignty is non-negotiable.</span> Your data, your rules, your control, no exceptions.</p>
               </div>
               
               <div className="flex items-start gap-4">
@@ -125,7 +125,7 @@ export default function MissionPage() {
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Independence</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  We answer to one master: our clients' long-term success. No vendor partnerships, no referral fees, no hidden agendas. Just honest, unbiased guidance.
+                 No vendor partnerships, no referral fees, no hidden agendas. Just honest, unbiased guidance.
                 </p>
               </div>
             </div>
@@ -153,7 +153,7 @@ export default function MissionPage() {
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Partnership</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  We don't just advise—we walk alongside you. From strategy through deployment and beyond, we're invested in your success, not our quarterly revenue.
+                  We don't just advise, we walk alongside you. From strategy through deployment and beyond, we're invested in your success, not our quarterly revenue.
                 </p>
               </div>
             </div>
@@ -167,7 +167,7 @@ export default function MissionPage() {
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Excellence</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Carbon markets are too important for "good enough." We hold ourselves to the highest standards because the stakes—our planet, your sovereignty—demand nothing less.
+                  Carbon markets are too important for "good enough." We hold ourselves to the highest standards because the stakes our planet, your sovereignty demand nothing less.
                 </p>
               </div>
             </div>
@@ -179,7 +179,7 @@ export default function MissionPage() {
               "We have one planet. The infrastructure we build today determines whether climate ambition becomes climate execution tomorrow."
             </p>
             <p className="text-lg text-carbon-100">
-              CloudMyco helps nations build that infrastructure—on their terms, with their sovereignty intact.
+              CloudMyco helps nations build that infrastructure on their terms, with their sovereignty intact.
             </p>
           </div>
 
