@@ -3,40 +3,44 @@
 import Link from 'next/link';
 import Head from 'next/head';
 import {
-  Database,
+  Clipboard,
   CheckCircle2,
   ArrowRight,
-  Lock,
-  Zap,
+  Search,
+  Settings,
+  Users,
   Building2,
   Scale,
-  Mail,
+  Globe,
+  Shield,
+  Award,
+  FileText,
 } from 'lucide-react';
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>CloudMyco | Banking‑Grade Infrastructure for Sovereign Carbon Markets</title>
-        <meta name="description" content="Turnkey Article 6 infrastructure for national carbon registries. Ensure compliance, maintain data integrity, and launch in 8 weeks." />
+        <title>CloudMyco | Independent Sovereign Carbon Infrastructure Advisory</title>
+        <meta name="description" content="Independent guidance for nations building sovereign carbon registries. Strategy, vendor selection, deployment oversight, and capacity building." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://cloudmyco.com/" />
-        <meta property="og:title" content="CloudMyco | Banking‑Grade Infrastructure for Sovereign Carbon Markets" />
-        <meta property="og:description" content="Turnkey Article 6 infrastructure for national carbon registries. Ensure compliance, maintain data integrity, and launch in 8 weeks." />
+        <meta property="og:title" content="CloudMyco | Independent Sovereign Carbon Infrastructure Advisory" />
+        <meta property="og:description" content="Independent guidance for nations building sovereign carbon registries. Strategy, vendor selection, deployment oversight, and capacity building." />
         <meta property="og:image" content="https://cloudmyco.com/icon.png" />
         
-        {/* Twitter */}
+        {/* Twitter - Keeping only essential tags, removing links */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://cloudmyco.com/" />
-        <meta property="twitter:title" content="CloudMyco | Banking‑Grade Infrastructure for Sovereign Carbon Markets" />
-        <meta property="twitter:description" content="Turnkey Article 6 infrastructure for national carbon registries. Ensure compliance, maintain data integrity, and launch in 8 weeks." />
+        <meta property="twitter:title" content="CloudMyco | Independent Sovereign Carbon Infrastructure Advisory" />
+        <meta property="twitter:description" content="Independent guidance for nations building sovereign carbon registries. Strategy, vendor selection, deployment oversight, and capacity building." />
         <meta property="twitter:image" content="https://cloudmyco.com/icon.png" />
         
         {/* Additional SEO tags */}
-        <meta name="keywords" content="carbon markets, Article 6, UNFCCC, carbon registry, blockchain, data sovereignty, climate finance" />
+        <meta name="keywords" content="carbon markets, Article 6, UNFCCC, carbon registry, blockchain, data sovereignty, climate finance, advisory, consulting" />
         <meta name="author" content="CloudMyco" />
         <meta name="robots" content="index, follow" />
         
@@ -51,18 +55,27 @@ export default function Home() {
 
       <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-carbon-50">
         {/* --------------------------------------------------------------
-            Navigation – Updated with icon.png logo
+            Navigation – Updated for consultancy
         -------------------------------------------------------------- */}
         <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-gray-200 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
+              {/* Logo on left */}
+              <Link href="/" className="flex items-center space-x-2">
+                <img src="/icon.png" alt="CloudMyco logo" className="h-8 w-8" />
+                <span className="text-xl font-bold text-gray-900">CloudMyco</span>
+              </Link>
+
               {/* Desktop links */}
               <div className="hidden md:flex items-center space-x-8">
-                <Link href="/product/overview" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
-                  Product
+                <Link href="/services" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
+                  Services
                 </Link>
-                <Link href="/docs" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
-                  Docs
+                <Link href="/about" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
+                  About
+                </Link>
+                <Link href="/mission" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
+                  Mission
                 </Link>
                 <Link href="/contact" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
                   Contact
@@ -71,7 +84,7 @@ export default function Home() {
                   href="/contact" 
                   className="px-4 py-2 bg-carbon-600 text-white rounded-md hover:bg-carbon-700 transition-colors font-medium"
                 >
-                  Request Access
+                  Request Consultation
                 </Link>
               </div>
 
@@ -86,7 +99,7 @@ export default function Home() {
         </nav>
 
         {/* --------------------------------------------------------------
-            Hero Section - Added logo above title
+            Hero Section
         -------------------------------------------------------------- */}
         <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
@@ -98,111 +111,161 @@ export default function Home() {
               
               <div className="inline-flex items-center space-x-2 px-4 py-2 bg-carbon-100 text-carbon-800 rounded-full text-sm font-medium mb-6">
                 <Building2 className="w-4 h-4" />
-                <span>Banking‑Grade Infrastructure for Sovereign Nations</span>
+                <span>Independent Sovereign Carbon Infrastructure Advisory</span>
               </div>
 
               <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-                Financial Infrastructure
+                Trusted Guidance for
                 <br />
                 <span className="bg-gradient-to-r from-carbon-600 to-blockchain-600 bg-clip-text text-transparent">
-                  for Carbon Markets
+                  Sovereign Carbon Markets
                 </span>
               </h1>
 
               <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-                Turnkey Article 6 infrastructure for national carbon registries.
+                CloudMyco helps nations build, launch, and own their carbon registries.
                 <br />
                 <strong className="text-gray-900">
-                  Ensure compliance. Maintain data integrity. Launch in 8 weeks.
+                  Independent expertise. Zero vendor bias. Full sovereignty.
                 </strong>
               </p>
 
-              {/* CTA Buttons - Now both visible */}
+              {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Link
-                  href="/docs"
+                  href="/services"
                   className="inline-flex items-center px-8 py-4 bg-carbon-600 text-white rounded-lg hover:bg-carbon-700 transition-all font-semibold text-lg shadow-lg hover:shadow-xl"
                 >
-                  View Documentation
+                  Explore Our Services
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
                 <Link
                   href="/contact"
                   className="inline-flex items-center px-8 py-4 bg-white text-gray-900 rounded-lg hover:bg-gray-50 transition-all border-2 border-gray-200 font-semibold text-lg"
                 >
-                  Request Access
+                  Request Consultation
                 </Link>
               </div>
 
               <p className="mt-8 text-sm text-gray-500">
-                World Bank Climate Warehouse compatible • UNFCCC Article 6 compliant • SOC 2 certified
+                Trusted by ministries of environment • World Bank Climate Warehouse partners • Article 6 specialists
               </p>
             </div>
           </div>
         </section>
 
         {/* --------------------------------------------------------------
-            Value Proposition
+            Services Overview
         -------------------------------------------------------------- */}
         <section className="py-20 bg-white border-y border-gray-200">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Like Central Bank Systems, For Carbon
+                Sovereign Carbon Infrastructure Advisory
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                CloudMyco applies the same principles used in core banking infrastructure to carbon markets:
-                data sovereignty, regulatory compliance, and cryptographic verification.
+                We don't sell software. We provide the expertise, strategy, and oversight 
+                to ensure your registry is sovereign, compliant, and built to last.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
-              {/* Data Sovereignty */}
+              {/* Service 1: Needs Assessment */}
               <div className="group p-8 rounded-2xl border-2 border-gray-200 hover:border-carbon-500 hover:shadow-xl transition-all">
                 <div className="w-12 h-12 bg-carbon-100 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <Lock className="w-6 h-6 text-carbon-600" />
+                  <Clipboard className="w-6 h-6 text-carbon-600" />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Data Sovereignty</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Needs Assessment & Strategy</h3>
                 <p className="text-gray-600 mb-4">
-                  Your data stays on servers you own and operate. Your encryption keys. Your jurisdiction. Your control.
+                  Analyze current registry status, legal frameworks, and carbon market goals. Develop a tailored infrastructure roadmap.
                 </p>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start">
                     <CheckCircle2 className="w-4 h-4 text-carbon-600 mr-2 mt-0.5 flex-shrink-0" />
-                    Physical infrastructure in your country
+                    Article 6 readiness evaluation
                   </li>
                   <li className="flex items-start">
                     <CheckCircle2 className="w-4 h-4 text-carbon-600 mr-2 mt-0.5 flex-shrink-0" />
-                    Legal jurisdiction under your law
+                    Technology requirements document
                   </li>
                   <li className="flex items-start">
                     <CheckCircle2 className="w-4 h-4 text-carbon-600 mr-2 mt-0.5 flex-shrink-0" />
-                    Encryption keys held by your government
+                    Sovereign-first roadmap
                   </li>
                 </ul>
               </div>
 
-              {/* Regulatory Compliance */}
+              {/* Service 2: Vendor Selection */}
               <div className="group p-8 rounded-2xl border-2 border-gray-200 hover:border-blockchain-500 hover:shadow-xl transition-all">
                 <div className="w-12 h-12 bg-blockchain-100 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <Scale className="w-6 h-6 text-blockchain-600" />
+                  <Search className="w-6 h-6 text-blockchain-600" />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Regulatory Compliance</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Vendor Selection & Procurement</h3>
                 <p className="text-gray-600 mb-4">
-                  Article 6 and ISO 14064 compliance built‑in. Regulatory updates distributed automatically like banking software.
+                  Manage RFP processes, evaluate solutions against sovereignty requirements, and provide unbiased recommendations.
                 </p>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start">
                     <CheckCircle2 className="w-4 h-4 text-blockchain-600 mr-2 mt-0.5 flex-shrink-0" />
-                    International standards hardcoded
+                    Full RFP management
                   </li>
                   <li className="flex items-start">
                     <CheckCircle2 className="w-4 h-4 text-blockchain-600 mr-2 mt-0.5 flex-shrink-0" />
-                    National parameters configurable
+                    Technical due diligence
                   </li>
                   <li className="flex items-start">
                     <CheckCircle2 className="w-4 h-4 text-blockchain-600 mr-2 mt-0.5 flex-shrink-0" />
-                    UNFCCC reporting automated
+                    Independent recommendations
+                  </li>
+                </ul>
+              </div>
+
+              {/* Service 3: Deployment Oversight */}
+              <div className="group p-8 rounded-2xl border-2 border-gray-200 hover:border-purple-500 hover:shadow-xl transition-all">
+                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Settings className="w-6 h-6 text-purple-600" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Implementation & Deployment</h3>
+                <p className="text-gray-600 mb-4">
+                  Project manage technical deployment, oversee system integration, and validate security and sovereignty requirements.
+                </p>
+                <ul className="space-y-2 text-sm text-gray-600">
+                  <li className="flex items-start">
+                    <CheckCircle2 className="w-4 h-4 text-purple-600 mr-2 mt-0.5 flex-shrink-0" />
+                    Technical project management
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle2 className="w-4 h-4 text-purple-600 mr-2 mt-0.5 flex-shrink-0" />
+                    Security architecture validation
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle2 className="w-4 h-4 text-purple-600 mr-2 mt-0.5 flex-shrink-0" />
+                    Article 6 compliance verification
+                  </li>
+                </ul>
+              </div>
+
+              {/* Service 4: Capacity Building */}
+              <div className="group p-8 rounded-2xl border-2 border-gray-200 hover:border-green-500 hover:shadow-xl transition-all">
+                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Users className="w-6 h-6 text-green-600" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Capacity Building & Training</h3>
+                <p className="text-gray-600 mb-4">
+                  Train local teams to operate independently. Develop manuals, SOPs, and governance frameworks.
+                </p>
+                <ul className="space-y-2 text-sm text-gray-600">
+                  <li className="flex items-start">
+                    <CheckCircle2 className="w-4 h-4 text-green-600 mr-2 mt-0.5 flex-shrink-0" />
+                    IT and registry team training
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle2 className="w-4 h-4 text-green-600 mr-2 mt-0.5 flex-shrink-0" />
+                    Operational manuals & SOPs
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle2 className="w-4 h-4 text-green-600 mr-2 mt-0.5 flex-shrink-0" />
+                    Long-term governance frameworks
                   </li>
                 </ul>
               </div>
@@ -211,194 +274,108 @@ export default function Home() {
         </section>
 
         {/* --------------------------------------------------------------
-            How It Works – The Hyphae
+            Why Independent Advisory
         -------------------------------------------------------------- */}
         <section className="py-20 bg-gradient-to-br from-gray-50 to-carbon-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Core Infrastructure</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Independent Guidance Matters</h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Like mycelium connecting a forest ecosystem, CloudMyco's architecture creates an unbreakable chain of evidence and accountability.
+                Carbon registries are critical national infrastructure. They deserve unbiased expertise, not a sales pitch.
               </p>
             </div>
 
-            <div className="space-y-12">
-              {/* Data Hypha – PRODUCTION */}
-              <div className="flex flex-col md:flex-row items-center gap-8 p-8 bg-white rounded-2xl border-2 border-carbon-500 shadow-lg">
-                <div className="w-16 h-16 bg-carbon-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <Database className="w-8 h-8 text-carbon-600" />
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-white p-8 rounded-2xl border border-gray-200 shadow-lg text-center">
+                <div className="w-16 h-16 bg-carbon-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Shield className="w-8 h-8 text-carbon-600" />
                 </div>
-                <div className="flex-1">
-                  <div className="flex items-center gap-3 mb-2">
-                    <h3 className="text-2xl font-bold text-gray-900">
-                      Data Hypha → Evidence Provenance
-                    </h3>
-                    <span className="px-3 py-1 bg-carbon-600 text-white rounded-full text-xs font-semibold">
-                      PRODUCTION
-                    </span>
-                  </div>
-                  <p className="text-gray-600 mb-3">
-                    Every file hashed, sealed, blockchain‑anchored. Tamper‑evident proof of "what existed when."
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-carbon-100 text-carbon-800 rounded-full text-sm">
-                      SHA‑256 hashing
-                    </span>
-                    <span className="px-3 py-1 bg-carbon-100 text-carbon-800 rounded-full text-sm">
-                      Merkle trees
-                    </span>
-                    <span className="px-3 py-1 bg-carbon-100 text-carbon-800 rounded-full text-sm">
-                      Blockchain anchoring
-                    </span>
-                    <span className="px-3 py-1 bg-carbon-100 text-carbon-800 rounded-full text-sm">
-                      Immutable audit trail
-                    </span>
-                  </div>
-                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">No Vendor Bias</h3>
+                <p className="text-gray-600">
+                  We don't build or sell software. Our only loyalty is to your sovereignty and long-term success.
+                </p>
               </div>
 
-              {/* Claim Hypha – PRODUCTION */}
-              <div className="flex flex-col md:flex-row items-center gap-8 p-8 bg-white rounded-2xl border-2 border-blockchain-500 shadow-lg">
-                <div className="w-16 h-16 bg-blockchain-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <Scale className="w-8 h-8 text-blockchain-600" />
+              <div className="bg-white p-8 rounded-2xl border border-gray-200 shadow-lg text-center">
+                <div className="w-16 h-16 bg-blockchain-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Award className="w-8 h-8 text-blockchain-600" />
                 </div>
-                <div className="flex-1">
-                  <div className="flex items-center gap-3 mb-2">
-                    <h3 className="text-2xl font-bold text-gray-900">
-                      Claim Hypha → Assertion + Accountability
-                    </h3>
-                    <span className="px-3 py-1 bg-blockchain-600 text-white rounded-full text-xs font-semibold">
-                      PRODUCTION
-                    </span>
-                  </div>
-                  <p className="text-gray-600 mb-3">
-                    Carbon claims cryptographically linked to evidence. Amendments leave permanent footprints. Multi‑sig verification required.
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-blockchain-100 text-blockchain-800 rounded-full text-sm">
-                      Smart contracts
-                    </span>
-                    <span className="px-3 py-1 bg-blockchain-100 text-blockchain-800 rounded-full text-sm">
-                      Amendment history
-                    </span>
-                    <span className="px-3 py-1 bg-blockchain-100 text-blockchain-800 rounded-full text-sm">
-                      No silent edits
-                    </span>
-                    <span className="px-3 py-1 bg-blockchain-100 text-blockchain-800 rounded-full text-sm">
-                      Immutable state machine
-                    </span>
-                  </div>
-                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Deep Specialization</h3>
+                <p className="text-gray-600">
+                  Carbon registry infrastructure is our only focus—not a side practice or one of many services.
+                </p>
               </div>
 
-              {/* Model Hypha – BETA */}
-              <div className="flex flex-col md:flex-row items-center gap-8 p-8 bg-white rounded-2xl border border-gray-300 shadow-lg opacity-75">
-                <div className="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <Zap className="w-8 h-8 text-purple-600" />
+              <div className="bg-white p-8 rounded-2xl border border-gray-200 shadow-lg text-center">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Globe className="w-8 h-8 text-green-600" />
                 </div>
-                <div className="flex-1">
-                  <div className="flex items-center gap-3 mb-2">
-                    <h3 className="text-2xl font-bold text-gray-900">
-                      Model Hypha → Advanced Analytics
-                    </h3>
-                    <span className="px-3 py-1 bg-purple-200 text-purple-900 rounded-full text-xs font-semibold">
-                      BETA
-                    </span>
-                  </div>
-                  <p className="text-gray-600 mb-3">
-                    Machine learning capabilities for pattern detection and process optimization. Currently in testing phase.
-                  </p>
-                </div>
-              </div>
-
-              {/* Registry Hypha – BETA */}
-              <div className="flex flex-col md:flex-row items-center gap-8 p-8 bg-white rounded-2xl border border-gray-300 shadow-lg opacity-75">
-                <div className="w-16 h-16 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <CheckCircle2 className="w-8 h-8 text-green-600" />
-                </div>
-                <div className="flex-1">
-                  <div className="flex items-center gap-3 mb-2">
-                    <h3 className="text-2xl font-bold text-gray-900">
-                      Credit Hypha → Issuance + Retirement
-                    </h3>
-                    <span className="px-3 py-1 bg-green-200 text-green-900 rounded-full text-xs font-semibold">
-                      BETA
-                    </span>
-                  </div>
-                  <p className="text-gray-600 mb-3">
-                    Digital carbon credit management system. Tokenization and retirement tracking currently in development.
-                  </p>
-                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Knowledge Transfer</h3>
+                <p className="text-gray-600">
+                  We train your team to operate independently. No vendor lock-in. Ever.
+                </p>
               </div>
             </div>
           </div>
         </section>
 
         {/* --------------------------------------------------------------
-            Why National Registries Choose CloudMyco
+            How We Work
         -------------------------------------------------------------- */}
         <section className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Built for Governments, Not Startups
+                Built for Sovereign Nations
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Carbon registries are financial infrastructure. They require the same security, compliance, and sovereignty guarantees as central bank systems.
+                We work alongside your team, ensuring every decision prioritizes national control and long-term independence.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               {/* Traditional Approach */}
-              <div className="p-6 border-l-4 border-carbon-600 bg-gray-50 rounded-r-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Traditional Approach (2‑3 Years)</h3>
+              <div className="p-6 border-l-4 border-gray-300 bg-gray-50 rounded-r-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Vendor-Driven Approach</h3>
                 <ul className="space-y-3 text-gray-600">
                   <li className="flex items-start">
                     <span className="text-red-500 mr-2">✗</span>
-                    Build registry from scratch ($10M+)
+                    Locked into proprietary platforms
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-500 mr-2">✗</span>
-                    Hire specialized carbon experts (scarce talent)
+                    Vendor controls your data and keys
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-500 mr-2">✗</span>
-                    Implement Article 6 compliance manually
+                    Expensive customization fees
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-500 mr-2">✗</span>
-                    Risk of non‑compliance = market exclusion
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-red-500 mr-2">✗</span>
-                    Ongoing maintenance burden
+                    Hard to switch providers
                   </li>
                 </ul>
               </div>
 
               {/* CloudMyco Approach */}
-              <div className="p-6 border-l-4 border-blockchain-600 bg-blockchain-50 rounded-r-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">CloudMyco (8 Weeks)</h3>
+              <div className="p-6 border-l-4 border-carbon-600 bg-carbon-50 rounded-r-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">CloudMyco Independent Advisory</h3>
                 <ul className="space-y-3 text-gray-600">
                   <li className="flex items-start">
                     <CheckCircle2 className="w-5 h-5 text-carbon-600 mr-2 flex-shrink-0" />
-                    Turnkey deployment (on your infrastructure)
+                    You own everything—data, keys, infrastructure
                   </li>
                   <li className="flex items-start">
                     <CheckCircle2 className="w-5 h-5 text-carbon-600 mr-2 flex-shrink-0" />
-                    Article 6 compliance built‑in (automatic)
+                    Unbiased vendor recommendations
                   </li>
                   <li className="flex items-start">
                     <CheckCircle2 className="w-5 h-5 text-carbon-600 mr-2 flex-shrink-0" />
-                    No specialized staff needed
+                    Your team trained for independence
                   </li>
                   <li className="flex items-start">
                     <CheckCircle2 className="w-5 h-5 text-carbon-600 mr-2 flex-shrink-0" />
-                    Automatic updates for regulatory changes
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle2 className="w-5 h-5 text-carbon-600 mr-2 flex-shrink-0" />
-                    Full data sovereignty maintained
+                    Sovereign control, always
                   </li>
                 </ul>
               </div>
@@ -407,7 +384,7 @@ export default function Home() {
         </section>
 
         {/* --------------------------------------------------------------
-            Footer - Light theme to match the rest of the site
+            Footer - Light theme (no social links)
         -------------------------------------------------------------- */}
         <footer className="bg-white border-t border-gray-200">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -418,91 +395,98 @@ export default function Home() {
                 <span className="text-xl font-bold text-gray-900">CloudMyco</span>
               </Link>
               <p className="text-gray-600 max-w-md">
-                Banking‑grade infrastructure for sovereign carbon markets. 
-                Turnkey Article 6 compliance for national registries.
+                Independent sovereign carbon infrastructure advisory. 
+                Helping nations build, launch, and own their carbon registries.
               </p>
             </div>
 
-{/* Navigation sections */}
-<div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-  <div>
-    <h4 className="text-gray-900 font-semibold mb-4 text-lg">Product</h4>
-    <ul className="space-y-2">
-      <li>
-        <Link href="/product/overview" className="text-gray-600 hover:text-carbon-600 transition-colors">
-          Overview
-        </Link>
-      </li>
-      <li>
-        <Link href="/docs" className="text-gray-600 hover:text-carbon-600 transition-colors">
-          Documentation
-        </Link>
-      </li>
-    </ul>
-  </div>
-  
-  <div>
-    <h4 className="text-gray-900 font-semibold mb-4 text-lg">Resources</h4>
-    <ul className="space-y-2">
-      <li>
-        <Link href="/resources/API-references" className="text-gray-600 hover:text-carbon-600 transition-colors">
-          API References
-        </Link>
-      </li>
-    </ul>
-  </div>
-  
-  <div>
-    <h4 className="text-gray-900 font-semibold mb-4 text-lg">Company</h4>
-    <ul className="space-y-2">
-      <li>
-        <Link href="/about" className="text-gray-600 hover:text-carbon-600 transition-colors">
-          About Us
-        </Link>
-      </li>
-      <li>
-        <Link href="/mission" className="text-gray-600 hover:text-carbon-600 transition-colors">
-          Mission
-        </Link>
-      </li>
-    </ul>
-  </div>
-  
-  <div>
-    <h4 className="text-gray-900 font-semibold mb-4 text-lg">Contact</h4>
-    <ul className="space-y-2">
-      <li>
-        <Link href="/contact" className="text-gray-600 hover:text-carbon-600 transition-colors">
-          Contact Us
-        </Link>
-      </li>
-    </ul>
-  </div>
-</div>
+            {/* Navigation sections */}
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+              <div>
+                <h4 className="text-gray-900 font-semibold mb-4 text-lg">Services</h4>
+                <ul className="space-y-2">
+                  <li>
+                    <Link href="/services" className="text-gray-600 hover:text-carbon-600 transition-colors">
+                      All Services
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services#assessment" className="text-gray-600 hover:text-carbon-600 transition-colors">
+                      Needs Assessment
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services#selection" className="text-gray-600 hover:text-carbon-600 transition-colors">
+                      Vendor Selection
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services#oversight" className="text-gray-600 hover:text-carbon-600 transition-colors">
+                      Deployment Oversight
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services#training" className="text-gray-600 hover:text-carbon-600 transition-colors">
+                      Capacity Building
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              
+              <div>
+                <h4 className="text-gray-900 font-semibold mb-4 text-lg">Company</h4>
+                <ul className="space-y-2">
+                  <li>
+                    <Link href="/about" className="text-gray-600 hover:text-carbon-600 transition-colors">
+                      About Us
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/mission" className="text-gray-600 hover:text-carbon-600 transition-colors">
+                      Mission
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              
+              <div>
+                <h4 className="text-gray-900 font-semibold mb-4 text-lg">Contact</h4>
+                <ul className="space-y-2">
+                  <li>
+                    <Link href="/contact" className="text-gray-600 hover:text-carbon-600 transition-colors">
+                      Contact Us
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/contact" className="text-gray-600 hover:text-carbon-600 transition-colors">
+                      Request Consultation
+                    </Link>
+                  </li>
+                </ul>
+              </div>
 
-            {/* Social links - Light theme */}
-            <div className="mt-8 pt-8 border-t border-gray-200">
-              <div className="flex justify-center space-x-6">
-                <a href="#" className="text-gray-400 hover:text-carbon-600 transition-colors">
-                  <span className="sr-only">GitHub</span>
-                  <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd" />
-                  </svg>
-                </a>
-                <a href="#" className="text-gray-400 hover:text-carbon-600 transition-colors">
-                  <span className="sr-only">LinkedIn</span>
-                  <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path fillRule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clipRule="evenodd" />
-                  </svg>
-                </a>
+              <div>
+                <h4 className="text-gray-900 font-semibold mb-4 text-lg">Legal</h4>
+                <ul className="space-y-2">
+                  <li>
+                    <Link href="/privacy" className="text-gray-600 hover:text-carbon-600 transition-colors">
+                      Privacy Policy
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/terms" className="text-gray-600 hover:text-carbon-600 transition-colors">
+                      Terms of Service
+                    </Link>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
 
-          {/* Copyright bar - Light theme */}
+          {/* Copyright bar - Light theme (no social links) */}
           <div className="bg-gray-50 border-t border-gray-200 py-4">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-600">
-              <p>© {new Date().getFullYear()} CloudMyco. All rights reserved. | Open source under Apache 2.0</p>
+              <p>© {new Date().getFullYear()} CloudMyco. All rights reserved. | Independent sovereign carbon infrastructure advisory.</p>
             </div>
           </div>
         </footer>
