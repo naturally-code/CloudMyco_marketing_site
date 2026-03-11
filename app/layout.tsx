@@ -10,20 +10,21 @@ import NavBar from "@/components/NavBar"; // <- our navigation component
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "CloudMyco – Financial Infrastructure for Carbon Markets",
+  title: "CloudMyco – Independent Advisory for Sovereign Carbon Markets",
   description:
-    "Turnkey Article 6 infrastructure for national carbon registries. Make compliance automatic. Make fraud expensive. Launch in 8 weeks.",
+    "Independent guidance for nations building sovereign carbon registries. Strategy, vendor selection, deployment oversight, and capacity building—with zero vendor bias.",
   keywords: [
     "carbon markets",
     "Article 6",
-    "blockchain",
     "carbon registry",
     "carbon credits",
     "UNFCCC",
     "climate finance",
+    "sovereign carbon infrastructure",
+    "carbon market advisory",
+    "government carbon registry"
   ],
   icons: {
-    // Place the file in the public folder (public/favicon.ico)
     icon: "/favicon.ico",
   },
 };
@@ -49,11 +50,13 @@ export default function RootLayout({
       </head>
 
       <body className="font-sans antialiased bg-gray-50 min-h-screen flex flex-col">
+        {/* Global navigation */}
+        <NavBar />
 
-        {/* Main content area – keep it centered and padded */}
-        <main className="flex-grow container mx-auto px-4 py-8">{children}</main>
+        {/* Main content area */}
+        <main className="flex-grow">{children}</main>
 
-        {/* Optional footer could go here if you want a site‑wide one */}
+        {/* Footer is now included in each page component */}
       </body>
     </html>
   );
