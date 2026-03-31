@@ -21,46 +21,41 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CloudMyco | Independent Sovereign Carbon Infrastructure Advisory</title>
-        <meta name="description" content="Independent guidance for nations building sovereign carbon registries. Strategy, vendor selection, deployment oversight, and capacity building." />
+        <title>CloudMyco | Sovereign Carbon Infrastructure, Built to Last</title>
+        <meta name="description" content="Independent carbon markets consultant advising nation-states on carbon infrastructure governance. CloudMyco helps sovereign nations build registries they own—with trust built in, not as an afterthought." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://cloudmyco.com/" />
-        <meta property="og:title" content="CloudMyco | Independent Sovereign Carbon Infrastructure Advisory" />
-        <meta property="og:description" content="Independent guidance for nations building sovereign carbon registries. Strategy, vendor selection, deployment oversight, and capacity building." />
+        <meta property="og:title" content="CloudMyco | Sovereign Carbon Infrastructure, Built to Last" />
+        <meta property="og:description" content="Independent carbon markets consultant advising nation-states on carbon infrastructure governance. CloudMyco helps sovereign nations build registries they own—with trust built in, not as an afterthought." />
         <meta property="og:image" content="https://cloudmyco.com/icon.png" />
         
-        
         {/* Additional SEO tags */}
-        <meta name="keywords" content="carbon markets, Article 6, UNFCCC, carbon registry, blockchain, data sovereignty, climate finance, advisory, consulting" />
+        <meta name="keywords" content="carbon markets consultant, carbon infrastructure governance, nation-state carbon advisory, sovereign carbon registry, Article 6 readiness, carbon market advisory services, government carbon consulting, registry procurement, sovereign carbon infrastructure" />
         <meta name="author" content="CloudMyco" />
         <meta name="robots" content="index, follow" />
         
         {/* Canonical URL */}
         <link rel="canonical" href="https://cloudmyco.com/" />
         
-        {/* Favicon - Using icon.png from public folder */}
+        {/* Favicon */}
         <link rel="icon" type="image/png" href="/icon.png" />
         <link rel="shortcut icon" href="/icon.png" />
         <link rel="apple-touch-icon" href="/icon.png" />
       </Head>
 
       <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-carbon-50">
-        {/* --------------------------------------------------------------
-            Navigation – Updated for consultancy
-        -------------------------------------------------------------- */}
+        {/* Navigation */}
         <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-gray-200 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
-              {/* Logo on left */}
               <Link href="/" className="flex items-center space-x-2">
                 <img src="/icon.png" alt="CloudMyco logo" className="h-8 w-8" />
                 <span className="text-xl font-bold text-gray-900">CloudMyco</span>
               </Link>
 
-              {/* Desktop links */}
               <div className="hidden md:flex items-center space-x-8">
                 <Link href="/services" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
                   Services
@@ -82,7 +77,6 @@ export default function Home() {
                 </Link>
               </div>
 
-              {/* Mobile menu button */}
               <button className="md:hidden p-2 rounded-md text-gray-700 hover:text-gray-900 hover:bg-gray-100">
                 <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
@@ -92,39 +86,35 @@ export default function Home() {
           </div>
         </nav>
 
-        {/* --------------------------------------------------------------
-            Hero Section
-        -------------------------------------------------------------- */}
+        {/* Hero Section */}
         <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="text-center max-w-4xl mx-auto">
-              {/* Logo above hero title */}
               <div className="flex justify-center mb-6">
                 <img src="/icon.png" alt="CloudMyco" className="h-32 w-32 mx-auto mb-6" />
               </div>
               
               <div className="inline-flex items-center space-x-2 px-4 py-2 bg-carbon-100 text-carbon-800 rounded-full text-sm font-medium mb-6">
                 <Building2 className="w-4 h-4" />
-                <span>Independent Sovereign Carbon Infrastructure Advisory</span>
+                <span>Sovereign Carbon Infrastructure, Built to Last</span>
               </div>
 
               <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-                Trusted Guidance for
+                Imagine. Trust.
                 <br />
                 <span className="bg-gradient-to-r from-carbon-600 to-blockchain-600 bg-clip-text text-transparent">
-                  Sovereign Carbon Markets
+                  Build.
                 </span>
               </h1>
 
               <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-                CloudMyco helps nations build, launch, and own their carbon registries.
+                CloudMyco helps sovereign nations imagine what's possible in carbon markets, earn trust through governance built in from the start, and build the infrastructure that makes restoration real.
                 <br />
                 <strong className="text-gray-900">
                   Independent expertise. Zero vendor bias. Full sovereignty.
                 </strong>
               </p>
 
-              {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Link
                   href="/services"
@@ -148,9 +138,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* --------------------------------------------------------------
-            Services Overview
-        -------------------------------------------------------------- */}
+        {/* Services Overview */}
         <section className="py-20 bg-white border-y border-gray-200">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
@@ -158,20 +146,18 @@ export default function Home() {
                 Sovereign Carbon Infrastructure Advisory
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                We don't sell software. We provide the expertise, strategy, and oversight 
-                to ensure your registry is sovereign, compliant, and built to last.
+                We help nations imagine what's possible, earn trust through governance built in from the start, and build the infrastructure that makes restoration real. No software to sell. Just independent expertise.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
-              {/* Service 1: Needs Assessment */}
               <div className="group p-8 rounded-2xl border-2 border-gray-200 hover:border-carbon-500 hover:shadow-xl transition-all">
                 <div className="w-12 h-12 bg-carbon-100 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                   <Clipboard className="w-6 h-6 text-carbon-600" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Needs Assessment & Strategy</h3>
                 <p className="text-gray-600 mb-4">
-                  Analyze current registry status, legal frameworks, and carbon market goals. Develop a tailored infrastructure roadmap.
+                  Imagine what's possible. Analyze current registry status, legal frameworks, and carbon market goals. Develop a tailored infrastructure roadmap.
                 </p>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start">
@@ -189,14 +175,13 @@ export default function Home() {
                 </ul>
               </div>
 
-              {/* Service 2: Vendor Selection */}
               <div className="group p-8 rounded-2xl border-2 border-gray-200 hover:border-blockchain-500 hover:shadow-xl transition-all">
                 <div className="w-12 h-12 bg-blockchain-100 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                   <Search className="w-6 h-6 text-blockchain-600" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Vendor Selection & Procurement</h3>
                 <p className="text-gray-600 mb-4">
-                  Manage RFP processes, evaluate solutions against sovereignty requirements, and provide unbiased recommendations.
+                  Build trust through governance. Manage RFP processes, evaluate solutions against sovereignty requirements, and provide unbiased recommendations.
                 </p>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start">
@@ -214,14 +199,13 @@ export default function Home() {
                 </ul>
               </div>
 
-              {/* Service 3: Deployment Oversight */}
               <div className="group p-8 rounded-2xl border-2 border-gray-200 hover:border-purple-500 hover:shadow-xl transition-all">
                 <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                   <Settings className="w-6 h-6 text-purple-600" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Implementation & Deployment</h3>
                 <p className="text-gray-600 mb-4">
-                  Project manage technical deployment, oversee system integration, and validate security and sovereignty requirements.
+                  Build the infrastructure that makes restoration real. Project manage technical deployment, validate security and sovereignty requirements.
                 </p>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start">
@@ -239,14 +223,13 @@ export default function Home() {
                 </ul>
               </div>
 
-              {/* Service 4: Capacity Building */}
               <div className="group p-8 rounded-2xl border-2 border-gray-200 hover:border-green-500 hover:shadow-xl transition-all">
                 <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                   <Users className="w-6 h-6 text-green-600" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Capacity Building & Training</h3>
                 <p className="text-gray-600 mb-4">
-                  Train local teams to operate independently. Develop manuals, SOPs, and governance frameworks.
+                  Build independence. Train local teams to operate independently. Develop manuals, SOPs, and governance frameworks.
                 </p>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start">
@@ -267,15 +250,13 @@ export default function Home() {
           </div>
         </section>
 
-        {/* --------------------------------------------------------------
-            Why Independent Advisory
-        -------------------------------------------------------------- */}
+        {/* Why Independent Advisory */}
         <section className="py-20 bg-gradient-to-br from-gray-50 to-carbon-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Independent Guidance Matters</h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Carbon registries are critical national infrastructure. They deserve unbiased expertise, not a sales pitch.
+                Carbon registries are critical national infrastructure. They deserve governance built in from the start, not as an afterthought.
               </p>
             </div>
 
@@ -296,7 +277,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Deep Specialization</h3>
                 <p className="text-gray-600">
-                  Carbon registry infrastructure is our only focus not a side practice or one of many services.
+                  Carbon registry infrastructure is our only focus—not a side practice. We speak both technology and policy.
                 </p>
               </div>
 
@@ -313,9 +294,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* --------------------------------------------------------------
-            How We Work
-        -------------------------------------------------------------- */}
+        {/* How We Work */}
         <section className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
@@ -323,12 +302,11 @@ export default function Home() {
                 Built for Sovereign Nations
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                We work alongside your team, ensuring every decision prioritizes national control and long-term independence.
+                We work alongside your team, ensuring every decision prioritizes national control and long-term independence. The path to restoration already exists. We help you build it.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
-              {/* Traditional Approach */}
               <div className="p-6 border-l-4 border-gray-300 bg-gray-50 rounded-r-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Vendor-Driven Approach</h3>
                 <ul className="space-y-3 text-gray-600">
@@ -351,13 +329,12 @@ export default function Home() {
                 </ul>
               </div>
 
-              {/* CloudMyco Approach */}
               <div className="p-6 border-l-4 border-carbon-600 bg-carbon-50 rounded-r-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">CloudMyco Independent Advisory</h3>
                 <ul className="space-y-3 text-gray-600">
                   <li className="flex items-start">
                     <CheckCircle2 className="w-5 h-5 text-carbon-600 mr-2 flex-shrink-0" />
-                    You own everything data, keys, infrastructure
+                    You own everything—data, keys, infrastructure
                   </li>
                   <li className="flex items-start">
                     <CheckCircle2 className="w-5 h-5 text-carbon-600 mr-2 flex-shrink-0" />
@@ -377,110 +354,60 @@ export default function Home() {
           </div>
         </section>
 
-        {/* --------------------------------------------------------------
-            Footer - Light theme (no social links)
-        -------------------------------------------------------------- */}
+        {/* Footer */}
         <footer className="bg-white border-t border-gray-200">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            {/* Logo and brief description */}
             <div className="mb-8">
               <Link href="/" className="flex items-center space-x-2 mb-4">
                 <img src="/icon.png" alt="CloudMyco logo" className="h-8 w-8" />
                 <span className="text-xl font-bold text-gray-900">CloudMyco</span>
               </Link>
               <p className="text-gray-600 max-w-md">
-                Independent sovereign carbon infrastructure advisory. 
-                Helping nations build, launch, and own their carbon registries.
+                Independent carbon markets consultant. Helping nations imagine, trust, and build sovereign carbon infrastructure that lasts.
               </p>
             </div>
 
-            {/* Navigation sections */}
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               <div>
                 <h4 className="text-gray-900 font-semibold mb-4 text-lg">Services</h4>
                 <ul className="space-y-2">
-                  <li>
-                    <Link href="/services" className="text-gray-600 hover:text-carbon-600 transition-colors">
-                      All Services
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services#assessment" className="text-gray-600 hover:text-carbon-600 transition-colors">
-                      Needs Assessment
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services#selection" className="text-gray-600 hover:text-carbon-600 transition-colors">
-                      Vendor Selection
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services#oversight" className="text-gray-600 hover:text-carbon-600 transition-colors">
-                      Deployment Oversight
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services#training" className="text-gray-600 hover:text-carbon-600 transition-colors">
-                      Capacity Building
-                    </Link>
-                  </li>
+                  <li><Link href="/services" className="text-gray-600 hover:text-carbon-600 transition-colors">All Services</Link></li>
+                  <li><Link href="/services#assessment" className="text-gray-600 hover:text-carbon-600 transition-colors">Needs Assessment</Link></li>
+                  <li><Link href="/services#selection" className="text-gray-600 hover:text-carbon-600 transition-colors">Vendor Selection</Link></li>
+                  <li><Link href="/services#oversight" className="text-gray-600 hover:text-carbon-600 transition-colors">Deployment Oversight</Link></li>
+                  <li><Link href="/services#training" className="text-gray-600 hover:text-carbon-600 transition-colors">Capacity Building</Link></li>
                 </ul>
               </div>
               
               <div>
                 <h4 className="text-gray-900 font-semibold mb-4 text-lg">Company</h4>
                 <ul className="space-y-2">
-                  <li>
-                    <Link href="/about" className="text-gray-600 hover:text-carbon-600 transition-colors">
-                      About Us
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/mission" className="text-gray-600 hover:text-carbon-600 transition-colors">
-                      Mission
-                    </Link>
-                  </li>
+                  <li><Link href="/about" className="text-gray-600 hover:text-carbon-600 transition-colors">About Us</Link></li>
+                  <li><Link href="/mission" className="text-gray-600 hover:text-carbon-600 transition-colors">Mission</Link></li>
                 </ul>
               </div>
               
               <div>
                 <h4 className="text-gray-900 font-semibold mb-4 text-lg">Contact</h4>
                 <ul className="space-y-2">
-                  <li>
-                    <Link href="/contact" className="text-gray-600 hover:text-carbon-600 transition-colors">
-                      Contact Us
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/contact" className="text-gray-600 hover:text-carbon-600 transition-colors">
-                      Request Consultation
-                    </Link>
-                  </li>
+                  <li><Link href="/contact" className="text-gray-600 hover:text-carbon-600 transition-colors">Contact Us</Link></li>
+                  <li><Link href="/contact" className="text-gray-600 hover:text-carbon-600 transition-colors">Request Consultation</Link></li>
                 </ul>
               </div>
 
               <div>
                 <h4 className="text-gray-900 font-semibold mb-4 text-lg">Legal</h4>
                 <ul className="space-y-2">
-                  <li>
-                    <Link href="/privacy" className="text-gray-600 hover:text-carbon-600 transition-colors">
-                      Privacy Policy
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/terms" className="text-gray-600 hover:text-carbon-600 transition-colors">
-                      Terms of Service
-                    </Link>
-                  </li>
+                  <li><Link href="/privacy" className="text-gray-600 hover:text-carbon-600 transition-colors">Privacy Policy</Link></li>
+                  <li><Link href="/terms" className="text-gray-600 hover:text-carbon-600 transition-colors">Terms of Service</Link></li>
                 </ul>
               </div>
             </div>
           </div>
 
-          {/* Copyright bar - Light theme (no social links) */}
           <div className="bg-gray-50 border-t border-gray-200 py-4">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-600">
-              <p>© {new Date().getFullYear()} CloudMyco. All rights reserved. | Independent sovereign carbon infrastructure advisory.</p>
+              <p>© {new Date().getFullYear()} CloudMyco. All rights reserved. | Imagine. Trust. Build.</p>
             </div>
           </div>
         </footer>
