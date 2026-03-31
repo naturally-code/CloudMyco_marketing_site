@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import NavBar from '../../components/NavBar'
 import Footer from '../../components/Footer'
-import { ArrowLeft, Clipboard, Search, Settings, Users, CheckCircle, FileText, Award } from 'lucide-react'
+import { ArrowLeft, Clipboard, Search, Settings, Users, CheckCircle, Eye, Handshake, Hammer } from 'lucide-react'
 
 export default function ServicesPage() {
   return (
@@ -24,9 +24,8 @@ export default function ServicesPage() {
             Our Services
           </h1>
           
-          <p className="text-xl text-gray-600 mb-12 max-w-3xl leading-relaxed">
-            Independent, sovereign-first guidance for nations building carbon market infrastructure. 
-            No software to sell. Just unbiased expertise at every stage.
+          <p className="text-xl text-gray-700 mb-12 max-w-3xl leading-relaxed">
+            I help nations imagine what's possible, earn trust through governance built in from the start, and build the infrastructure that makes restoration real. No software to sell. Just independent expertise at every stage.
           </p>
 
           {/* Service 1 */}
@@ -36,7 +35,7 @@ export default function ServicesPage() {
                 <Clipboard className="w-8 h-8 text-carbon-600" />
               </div>
               <div className="flex-1">
-                <h2 className="text-3xl font-bold text-gray-900 mb-2">1. Needs Assessment & Strategy Development</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-2">Needs Assessment & Strategy Development</h2>
                 <p className="text-lg text-gray-600 mb-4">Lay the foundation with clarity and purpose.</p>
                 <ul className="space-y-2 mb-4">
                   <li className="flex items-start">
@@ -63,7 +62,7 @@ export default function ServicesPage() {
                 <Search className="w-8 h-8 text-blockchain-600" />
               </div>
               <div className="flex-1">
-                <h2 className="text-3xl font-bold text-gray-900 mb-2">2. Vendor Selection & Procurement Support</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-2">Vendor Selection & Procurement Support</h2>
                 <p className="text-lg text-gray-600 mb-4">Navigate the market with confidence.</p>
                 <ul className="space-y-2 mb-4">
                   <li className="flex items-start">
@@ -76,7 +75,7 @@ export default function ServicesPage() {
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="w-5 h-5 text-blockchain-600 mr-2 mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">Provide unbiased, independent recommendations</span>
+                    <span className="text-gray-700">Provide unbiased, independent recommendations—no commissions, no vendor ties</span>
                   </li>
                 </ul>
               </div>
@@ -90,7 +89,7 @@ export default function ServicesPage() {
                 <Settings className="w-8 h-8 text-purple-600" />
               </div>
               <div className="flex-1">
-                <h2 className="text-3xl font-bold text-gray-900 mb-2">3. Implementation & Deployment Oversight</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-2">Implementation & Deployment Oversight</h2>
                 <p className="text-lg text-gray-600 mb-4">Ensure delivery matches vision.</p>
                 <ul className="space-y-2 mb-4">
                   <li className="flex items-start">
@@ -117,7 +116,7 @@ export default function ServicesPage() {
                 <Users className="w-8 h-8 text-green-600" />
               </div>
               <div className="flex-1">
-                <h2 className="text-3xl font-bold text-gray-900 mb-2">4. Capacity Building & Training</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-2">Capacity Building & Training</h2>
                 <p className="text-lg text-gray-600 mb-4">Transfer knowledge. Ensure independence.</p>
                 <ul className="space-y-2 mb-4">
                   <li className="flex items-start">
@@ -137,27 +136,35 @@ export default function ServicesPage() {
             </div>
           </div>
 
-          {/* Why Choose Us */}
+          {/* Why CloudMyco - Reframed with Imagine. Trust. Build. as guiding philosophy */}
           <div className="bg-gradient-to-br from-carbon-600 to-blockchain-600 rounded-2xl p-8 text-white mb-12">
-            <h2 className="text-3xl font-bold mb-6">Why CloudMyco?</h2>
-            <div className="grid md:grid-cols-2 gap-6">
+            <h2 className="text-3xl font-bold mb-6">My Guiding Philosophy</h2>
+            <div className="grid md:grid-cols-3 gap-6">
               <div>
-                <h3 className="text-xl font-bold mb-2">Independent</h3>
-                <p className="text-carbon-100">No vendor ties. No commissions. No software to sell. Just unbiased advice.</p>
+                <div className="flex items-center gap-2 mb-3">
+                  <Eye className="w-6 h-6 text-carbon-200" />
+                  <h3 className="text-xl font-bold">Imagine</h3>
+                </div>
+                <p className="text-carbon-100">I believe the path to restoration already exists—and where it doesn't, we need only imagine it to build it. Every engagement begins with clarity about what's possible.</p>
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Specialized</h3>
-                <p className="text-carbon-100">Carbon registry infrastructure is our only focus not a side practice.</p>
+                <div className="flex items-center gap-2 mb-3">
+                  <Handshake className="w-6 h-6 text-carbon-200" />
+                  <h3 className="text-xl font-bold">Trust</h3>
+                </div>
+                <p className="text-carbon-100">I build governance into infrastructure from the start—not as an afterthought. No vendor bias. No backdoors. Your data, your keys, your jurisdiction.</p>
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Sovereignty-First</h3>
-                <p className="text-carbon-100">Every recommendation prioritizes national control and data ownership.</p>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold mb-2">Knowledge Transfer</h3>
-                <p className="text-carbon-100">We don't just advise. We train your team to operate independently.</p>
+                <div className="flex items-center gap-2 mb-3">
+                  <Hammer className="w-6 h-6 text-carbon-200" />
+                  <h3 className="text-xl font-bold">Build</h3>
+                </div>
+                <p className="text-carbon-100">This work is tedious. It is possible. I take the steps because the mountain will be summited. No such thing as a problem without a solution.</p>
               </div>
             </div>
+            <p className="text-center text-carbon-100 mt-6 pt-4 border-t border-carbon-500">
+              These principles guide every service I offer—from first conversation to final training.
+            </p>
           </div>
 
           {/* CTA */}
@@ -170,7 +177,7 @@ export default function ServicesPage() {
               href="/contact"
               className="inline-flex items-center px-8 py-4 bg-carbon-600 text-white rounded-lg hover:bg-carbon-700 transition-all hover:scale-105 font-semibold text-lg shadow-lg"
             >
-              Request Consultation
+              Request a Consultation
             </Link>
           </div>
         </div>
