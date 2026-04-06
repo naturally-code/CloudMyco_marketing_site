@@ -1,4 +1,4 @@
-'use client'
+F'use client'
 
 import Link from 'next/link'
 import NavBar from '../../components/NavBar'
@@ -54,7 +54,7 @@ export default function ServicesPage() {
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="w-5 h-5 text-carbon-600 mr-2 mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">Evaluate readiness for Article 6.2, CORSIA, and CBAM compliance markets</span>
+                    <span className="text-gray-700">Evaluate readiness for Article 6, CORSIA, and CBAM compliance markets</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="w-5 h-5 text-carbon-600 mr-2 mt-0.5 flex-shrink-0" />
