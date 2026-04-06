@@ -25,16 +25,26 @@ export default function ServicesPage() {
           </h1>
           
           <p className="text-xl text-gray-700 mb-12 max-w-3xl leading-relaxed">
-            I help nations imagine what's possible, earn trust through governance built in from the start, and build the infrastructure that makes restoration real. No software to sell. Just independent expertise at every stage.
+            Sovereign carbon advisory for nation states. Host country readiness. Project developer matching. Every engagement is guided by the same principle: <span className="font-semibold">Imagine. Build. Trust.</span>
           </p>
 
-          {/* Service 1 */}
+          {/* Service 1 - Needs Assessment & Strategy */}
           <div className="bg-white rounded-2xl border-2 border-carbon-500 p-8 mb-8 shadow-lg">
             <div className="flex items-start gap-6">
               <div className="w-16 h-16 bg-carbon-100 rounded-xl flex items-center justify-center flex-shrink-0">
                 <Clipboard className="w-8 h-8 text-carbon-600" />
               </div>
               <div className="flex-1">
+                <div className="flex items-center gap-2 mb-2">
+                  <Eye className="w-4 h-4 text-carbon-600" />
+                  <span className="text-xs font-semibold text-carbon-600 uppercase tracking-wide">Imagine</span>
+                  <span className="text-gray-300 mx-1">•</span>
+                  <Hammer className="w-4 h-4 text-carbon-600" />
+                  <span className="text-xs font-semibold text-carbon-600 uppercase tracking-wide">Build</span>
+                  <span className="text-gray-300 mx-1">•</span>
+                  <Handshake className="w-4 h-4 text-carbon-600" />
+                  <span className="text-xs font-semibold text-carbon-600 uppercase tracking-wide">Trust</span>
+                </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-2">Needs Assessment & Strategy Development</h2>
                 <p className="text-lg text-gray-600 mb-4">Lay the foundation with clarity and purpose.</p>
                 <ul className="space-y-2 mb-4">
@@ -44,24 +54,34 @@ export default function ServicesPage() {
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="w-5 h-5 text-carbon-600 mr-2 mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">Evaluate readiness for Article 6 participation</span>
+                    <span className="text-gray-700">Evaluate readiness for Article 6.2, CORSIA, and CBAM compliance markets</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="w-5 h-5 text-carbon-600 mr-2 mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">Develop tailored infrastructure roadmap and technology requirements</span>
+                    <span className="text-gray-700">Develop tailored infrastructure roadmap with interoperability as a core requirement</span>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
 
-          {/* Service 2 */}
+          {/* Service 2 - Vendor Selection & Procurement */}
           <div className="bg-white rounded-2xl border-2 border-blockchain-500 p-8 mb-8 shadow-lg">
             <div className="flex items-start gap-6">
               <div className="w-16 h-16 bg-blockchain-100 rounded-xl flex items-center justify-center flex-shrink-0">
                 <Search className="w-8 h-8 text-blockchain-600" />
               </div>
               <div className="flex-1">
+                <div className="flex items-center gap-2 mb-2">
+                  <Eye className="w-4 h-4 text-blockchain-600" />
+                  <span className="text-xs font-semibold text-blockchain-600 uppercase tracking-wide">Imagine</span>
+                  <span className="text-gray-300 mx-1">•</span>
+                  <Hammer className="w-4 h-4 text-blockchain-600" />
+                  <span className="text-xs font-semibold text-blockchain-600 uppercase tracking-wide">Build</span>
+                  <span className="text-gray-300 mx-1">•</span>
+                  <Handshake className="w-4 h-4 text-blockchain-600" />
+                  <span className="text-xs font-semibold text-blockchain-600 uppercase tracking-wide">Trust</span>
+                </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-2">Vendor Selection & Procurement Support</h2>
                 <p className="text-lg text-gray-600 mb-4">Navigate the market with confidence.</p>
                 <ul className="space-y-2 mb-4">
@@ -82,13 +102,23 @@ export default function ServicesPage() {
             </div>
           </div>
 
-          {/* Service 3 */}
+          {/* Service 3 - Implementation & Deployment */}
           <div className="bg-white rounded-2xl border-2 border-purple-500 p-8 mb-8 shadow-lg">
             <div className="flex items-start gap-6">
               <div className="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center flex-shrink-0">
                 <Settings className="w-8 h-8 text-purple-600" />
               </div>
               <div className="flex-1">
+                <div className="flex items-center gap-2 mb-2">
+                  <Eye className="w-4 h-4 text-purple-600" />
+                  <span className="text-xs font-semibold text-purple-600 uppercase tracking-wide">Imagine</span>
+                  <span className="text-gray-300 mx-1">•</span>
+                  <Hammer className="w-4 h-4 text-purple-600" />
+                  <span className="text-xs font-semibold text-purple-600 uppercase tracking-wide">Build</span>
+                  <span className="text-gray-300 mx-1">•</span>
+                  <Handshake className="w-4 h-4 text-purple-600" />
+                  <span className="text-xs font-semibold text-purple-600 uppercase tracking-wide">Trust</span>
+                </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-2">Implementation & Deployment Oversight</h2>
                 <p className="text-lg text-gray-600 mb-4">Ensure delivery matches vision.</p>
                 <ul className="space-y-2 mb-4">
@@ -102,20 +132,30 @@ export default function ServicesPage() {
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="w-5 h-5 text-purple-600 mr-2 mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">Validate security architecture and data sovereignty requirements</span>
+                    <span className="text-gray-700">Validate security architecture, data sovereignty, and interoperability requirements</span>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
 
-          {/* Service 4 */}
+          {/* Service 4 - Capacity Building & Training */}
           <div className="bg-white rounded-2xl border-2 border-green-500 p-8 mb-12 shadow-lg">
             <div className="flex items-start gap-6">
               <div className="w-16 h-16 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
                 <Users className="w-8 h-8 text-green-600" />
               </div>
               <div className="flex-1">
+                <div className="flex items-center gap-2 mb-2">
+                  <Eye className="w-4 h-4 text-green-600" />
+                  <span className="text-xs font-semibold text-green-600 uppercase tracking-wide">Imagine</span>
+                  <span className="text-gray-300 mx-1">•</span>
+                  <Hammer className="w-4 h-4 text-green-600" />
+                  <span className="text-xs font-semibold text-green-600 uppercase tracking-wide">Build</span>
+                  <span className="text-gray-300 mx-1">•</span>
+                  <Handshake className="w-4 h-4 text-green-600" />
+                  <span className="text-xs font-semibold text-green-600 uppercase tracking-wide">Trust</span>
+                </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-2">Capacity Building & Training</h2>
                 <p className="text-lg text-gray-600 mb-4">Transfer knowledge. Ensure independence.</p>
                 <ul className="space-y-2 mb-4">
@@ -129,49 +169,49 @@ export default function ServicesPage() {
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="w-5 h-5 text-green-600 mr-2 mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">Establish governance frameworks for long-term success</span>
+                    <span className="text-gray-700">Establish governance frameworks for long-term success and interoperability</span>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
 
-          {/* Why CloudMyco - Reframed with Imagine. Trust. Build. as guiding philosophy */}
+          {/* Why CloudMyco - Guiding Philosophy */}
           <div className="bg-gradient-to-br from-carbon-600 to-blockchain-600 rounded-2xl p-8 text-white mb-12">
-            <h2 className="text-3xl font-bold mb-6">My Guiding Philosophy</h2>
+            <h2 className="text-3xl font-bold mb-6 text-center">My Guiding Philosophy</h2>
             <div className="grid md:grid-cols-3 gap-6">
-              <div>
-                <div className="flex items-center gap-2 mb-3">
-                  <Eye className="w-6 h-6 text-carbon-200" />
-                  <h3 className="text-xl font-bold">Imagine</h3>
+              <div className="text-center">
+                <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Eye className="w-6 h-6 text-white" />
                 </div>
-                <p className="text-carbon-100">I believe the path to restoration already exists—and where it doesn't, we need only imagine it to build it. Every engagement begins with clarity about what's possible.</p>
+                <h3 className="text-xl font-bold mb-2">Imagine</h3>
+                <p className="text-carbon-100 text-sm">I believe the path to restoration already exists—and where it doesn't, we need only imagine it to build it. Every engagement begins with clarity about what's possible.</p>
               </div>
-              <div>
-                <div className="flex items-center gap-2 mb-3">
-                  <Handshake className="w-6 h-6 text-carbon-200" />
-                  <h3 className="text-xl font-bold">Trust</h3>
+              <div className="text-center">
+                <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Hammer className="w-6 h-6 text-white" />
                 </div>
-                <p className="text-carbon-100">I build governance into infrastructure from the start—not as an afterthought. No vendor bias. No backdoors. Your data, your keys, your jurisdiction.</p>
+                <h3 className="text-xl font-bold mb-2">Build</h3>
+                <p className="text-carbon-100 text-sm">This work is tedious. It is possible. I take the steps—LoA frameworks, corresponding adjustment policies, MRV systems, registry infrastructure—because the mountain will be summited.</p>
               </div>
-              <div>
-                <div className="flex items-center gap-2 mb-3">
-                  <Hammer className="w-6 h-6 text-carbon-200" />
-                  <h3 className="text-xl font-bold">Build</h3>
+              <div className="text-center">
+                <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Handshake className="w-6 h-6 text-white" />
                 </div>
-                <p className="text-carbon-100">This work is tedious. It is possible. I take the steps because the mountain will be summited. No such thing as a problem without a solution.</p>
+                <h3 className="text-xl font-bold mb-2">Trust</h3>
+                <p className="text-carbon-100 text-sm">I build governance into infrastructure from the start—not as an afterthought. No vendor bias. No backdoors. Your data, your keys, your jurisdiction.</p>
               </div>
             </div>
-            <p className="text-center text-carbon-100 mt-6 pt-4 border-t border-carbon-500">
+            <p className="text-center text-carbon-100 mt-6 pt-4 border-t border-carbon-500 text-sm">
               These principles guide every service I offer—from first conversation to final training.
             </p>
           </div>
 
-          {/* CTA */}
+          {/* CTA - Dual audience */}
           <div className="text-center">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Ready to Begin?</h2>
             <p className="text-lg text-gray-600 mb-6">
-              Schedule a consultation to discuss your nation's carbon registry journey.
+              For nation states: Let's build your Article 6 readiness. For project developers: Looking for a credit-ready host country?
             </p>
             <Link 
               href="/contact"
