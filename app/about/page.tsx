@@ -39,7 +39,7 @@ export default function AboutPage() {
               I founded CloudMyco because I saw a critical gap in the carbon market ecosystem. After years navigating carbon markets as a researcher and technologist (ex-Apple, AI/ML for data integrity), I realized that the real bottleneck wasn't project supply—it was host country readiness.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              CloudMyco is a sovereign carbon advisory firm. We help nation states build the technical infrastructure and governance frameworks required to participate in Article 6.2 of the Paris Agreement, CORSIA, and CBAM compliance markets. We then connect credit-ready nations with vetted, high-integrity project developers.
+              CloudMyco is a sovereign carbon advisory firm. We help nation states build the technical infrastructure and governance frameworks required to participate in Article 6 of the Paris Agreement, CORSIA, and CBAM compliance markets. We then connect credit-ready nations with vetted, high-integrity project developers.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               I don't sell software. I don't take commissions. I provide independent, unbiased expertise to ensure your nation's carbon infrastructure is built to last—and built to connect.
@@ -119,7 +119,7 @@ export default function AboutPage() {
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-2">Deeply Specialized</h3>
-                <p className="text-carbon-100">Article 6.2 readiness, LoA frameworks, corresponding adjustments, CORSIA eligibility, CBAM defense—this is my only focus.</p>
+                <p className="text-carbon-100">Article 6 readiness, LoA frameworks, corresponding adjustments, CORSIA eligibility, CBAM defense—this is my only focus.</p>
               </div>
             </div>
           </div>
