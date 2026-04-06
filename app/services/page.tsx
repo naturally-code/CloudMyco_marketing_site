@@ -1,4 +1,4 @@
-F'use client'
+'use client'
 
 import Link from 'next/link'
 import NavBar from '../../components/NavBar'
