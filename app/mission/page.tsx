@@ -23,14 +23,14 @@ export default function MissionPage() {
           </h1>
           
           <p className="text-2xl text-gray-700 mb-12 leading-relaxed">
-            To help nation states build the technical infrastructure and governance frameworks required to participate in Article 6.2, CORSIA, and CBAM compliance markets—then connect credit-ready nations with vetted, high-integrity project developers.
+            To help nation states build the technical infrastructure and governance frameworks required to participate in Article 6, CORSIA, and CBAM compliance markets—then connect credit-ready nations with vetted, high-integrity project developers.
           </p>
 
           {/* Why CloudMyco Exists - Updated with host country readiness */}
           <div className="bg-white rounded-2xl border-2 border-carbon-500 p-8 mb-12 shadow-lg">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Why I Exist</h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              The bottleneck in global carbon markets is no longer a lack of projects. It is a lack of host country readiness. Most nations lack Letter of Authorization (LoA) frameworks, corresponding adjustment policies, UNFCCC reporting systems, and digital registries. Without these, they cannot issue compliance-grade credits for CORSIA or Article 6.2.
+              The bottleneck in global carbon markets is no longer a lack of projects. It is a lack of host country readiness. Most nations lack Letter of Authorization (LoA) frameworks, corresponding adjustment policies, UNFCCC reporting systems, and digital registries. Without these, they cannot issue compliance-grade credits for CORSIA or Article 6.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
               I believe carbon registries should operate like central bank systems: owned and controlled by governments, with compliance built in. But countries shouldn't have to navigate this complexity alone—or rely on advice from companies trying to sell them software.
