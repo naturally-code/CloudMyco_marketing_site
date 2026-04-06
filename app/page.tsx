@@ -108,7 +108,7 @@ export default function Home() {
               </h1>
 
               <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-                CloudMyco is a sovereign carbon advisory firm. We help nation states build the technical infrastructure and governance frameworks required to participate in Article 6.2 of the Paris Agreement, CORSIA, and CBAM compliance markets. We then connect credit-ready nations with vetted, high-integrity project developers.
+                CloudMyco is a sovereign carbon advisory firm. We help nation states build the technical infrastructure and governance frameworks required to participate in Article 6 of the Paris Agreement, CORSIA, and CBAM compliance markets. We then connect credit-ready nations with vetted, high-integrity project developers.
                 <br />
                 <strong className="text-gray-900">
                   Independent expertise. Zero vendor bias. Full sovereignty.
