@@ -22,18 +22,18 @@ export default function Home() {
     <>
       <Head>
         <title>CloudMyco | Sovereign Carbon Infrastructure. Host Country Readiness. Project Developer Matching.</title>
-        <meta name="description" content="Sovereign carbon advisory for nation states. Article 6.2 readiness, LoA frameworks, corresponding adjustments, CORSIA eligibility, and vetted project developer matching. Independent. Unbiased. Sovereignty-first." />
+        <meta name="description" content="Sovereign carbon advisory for nation states. Article 6 readiness, LoA frameworks, corresponding adjustments, CORSIA eligibility, and vetted project developer matching. Independent. Unbiased. Sovereignty-first." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://cloudmyco.com/" />
         <meta property="og:title" content="CloudMyco | Sovereign Carbon Infrastructure. Host Country Readiness. Project Developer Matching." />
-        <meta property="og:description" content="Sovereign carbon advisory for nation states. Article 6.2 readiness, LoA frameworks, corresponding adjustments, CORSIA eligibility, and vetted project developer matching." />
+        <meta property="og:description" content="Sovereign carbon advisory for nation states. Article readiness, LoA frameworks, corresponding adjustments, CORSIA eligibility, and vetted project developer matching." />
         <meta property="og:image" content="https://cloudmyco.com/icon.png" />
         
         {/* Additional SEO tags */}
-        <meta name="keywords" content="Article 6.2, Letter of Authorization, corresponding adjustment, CORSIA eligibility, CBAM compliance, ICVCM Core Carbon Principles, Designated National Authority, ITMO, host country framework, jurisdictional readiness, UNFCCC centralized accounting platform, Biennial Transparency Report, sovereign carbon infrastructure, host country readiness, project developer matching, interoperability, system standardization" />
+        <meta name="keywords" content="Article 6, Letter of Authorization, corresponding adjustment, CORSIA eligibility, CBAM compliance, ICVCM Core Carbon Principles, Designated National Authority, ITMO, host country framework, jurisdictional readiness, UNFCCC centralized accounting platform, Biennial Transparency Report, sovereign carbon infrastructure, host country readiness, project developer matching, interoperability, system standardization" />
         <meta name="author" content="CloudMyco" />
         <meta name="robots" content="index, follow" />
         
@@ -169,7 +169,7 @@ export default function Home() {
                     No digital registries
                   </li>
                 </ul>
-                <p className="mt-4 text-gray-700 font-medium">Result: No compliance-grade credits for CORSIA or Article 6.2.</p>
+                <p className="mt-4 text-gray-700 font-medium">Result: No compliance-grade credits for CORSIA or Article 6 </p>
               </div>
 
               <div className="bg-green-50 p-8 rounded-2xl border border-green-200">
