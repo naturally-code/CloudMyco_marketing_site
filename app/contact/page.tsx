@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { Mail, ArrowLeft, Building2, Globe, Users, FileText, Shield } from 'lucide-react'
+import { Mail, ArrowLeft, Users, Settings } from 'lucide-react'
 import NavBar from '../../components/NavBar'
 import Footer from '../../components/Footer'
 
@@ -25,7 +25,7 @@ export default function ContactPage() {
             Get in Touch
           </h1>
           <p className="text-xl text-gray-600 mb-12">
-            Interested in building your nation's Article 6 readiness, securing host country authorization, or finding credit-ready markets? We'd love to hear from you.
+            Need help with onboarding? Ongoing support? Just want to talk through what you need? Let's talk.
           </p>
 
           {/* Contact Card */}
@@ -41,7 +41,7 @@ export default function ContactPage() {
             </h2>
 
             <p className="text-lg text-gray-600 text-center mb-8">
-              For sovereign advisory, host country readiness, project developer matching, or partnership opportunities:
+              For onboarding support, ongoing support, or just to ask a question:
             </p>
 
             <div className="flex items-center justify-center">
@@ -59,92 +59,65 @@ export default function ContactPage() {
                 What to Include in Your Email
               </h3>
               
-              <div className="grid md:grid-cols-3 gap-6">
+              <div className="grid md:grid-cols-2 gap-6">
                 <div className="p-4 bg-gray-50 rounded-lg">
                   <div className="flex items-center mb-2">
-                    <Building2 className="w-5 h-5 text-carbon-600 mr-2" />
-                    <h4 className="font-semibold text-gray-900">For Nation States</h4>
+                    <Users className="w-5 h-5 text-carbon-600 mr-2" />
+                    <h4 className="font-semibold text-gray-900">For Onboarding Support</h4>
                   </div>
                   <ul className="text-sm text-gray-600 space-y-1">
-                    <li>• Country/jurisdiction</li>
-                    <li>• Current Article 6 readiness status</li>
-                    <li>• LoA framework status</li>
-                    <li>• Corresponding adjustment policy status</li>
+                    <li>• Type of registry or system</li>
+                    <li>• Number of staff needing training</li>
+                    <li>• Specific workflows or processes needing help</li>
                     <li>• Timeline and priority needs</li>
                   </ul>
                 </div>
 
                 <div className="p-4 bg-gray-50 rounded-lg">
                   <div className="flex items-center mb-2">
-                    <Users className="w-5 h-5 text-blockchain-600 mr-2" />
-                    <h4 className="font-semibold text-gray-900">For Project Developers</h4>
+                    <Settings className="w-5 h-5 text-blockchain-600 mr-2" />
+                    <h4 className="font-semibold text-gray-900">For Ongoing Support</h4>
                   </div>
                   <ul className="text-sm text-gray-600 space-y-1">
-                    <li>• Project type and methodology</li>
-                    <li>• Target host countries</li>
-                    <li>• Credit vintage and volume</li>
-                    <li>• CORSIA eligibility status</li>
-                    <li>• ICVCM CCP alignment</li>
-                  </ul>
-                </div>
-
-                <div className="p-4 bg-gray-50 rounded-lg">
-                  <div className="flex items-center mb-2">
-                    <Shield className="w-5 h-5 text-purple-600 mr-2" />
-                    <h4 className="font-semibold text-gray-900">For Partners & Funders</h4>
-                  </div>
-                  <ul className="text-sm text-gray-600 space-y-1">
-                    <li>• Organization type</li>
-                    <li>• Geographic focus</li>
-                    <li>• Partnership opportunity</li>
-                    <li>• Technical assistance needs</li>
-                    <li>• Funding or implementation role</li>
+                    <li>• Current registry status and age</li>
+                    <li>• Specific challenges you're facing</li>
+                    <li>• Staff turnover or training needs</li>
+                    <li>• Audit or compliance reporting needs</li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Additional Info - Three columns for three audiences */}
-          <div className="mt-12 grid md:grid-cols-3 gap-6">
+          {/* Additional Info - Two columns for two services */}
+          <div className="mt-12 grid md:grid-cols-2 gap-6">
             <div className="p-6 bg-white rounded-xl border border-gray-200">
               <div className="flex items-center mb-4">
-                <Building2 className="w-6 h-6 text-carbon-600 mr-3" />
-                <h3 className="text-lg font-bold text-gray-900">For Nation States</h3>
+                <Users className="w-6 h-6 text-carbon-600 mr-3" />
+                <h3 className="text-lg font-bold text-gray-900">Onboarding Support</h3>
               </div>
               <p className="text-gray-600 text-sm">
-                We work directly with Ministries of Environment, Designated National Authorities (DNAs), and NDC implementation units to design LoA frameworks, corresponding adjustment policies, MRV systems, and UNFCCC-aligned registry infrastructure.
+                Training ministry staff. Helping project developers register their first project. Documenting processes so your team can repeat them.
               </p>
-              <p className="text-xs text-carbon-600 mt-3 font-medium">Let's build your Article 6 readiness.</p>
+              <p className="text-xs text-carbon-600 mt-3 font-medium">Let's get your registry running.</p>
             </div>
 
             <div className="p-6 bg-white rounded-xl border border-gray-200">
               <div className="flex items-center mb-4">
-                <Users className="w-6 h-6 text-blockchain-600 mr-3" />
-                <h3 className="text-lg font-bold text-gray-900">For Project Developers</h3>
+                <Settings className="w-6 h-6 text-blockchain-600 mr-3" />
+                <h3 className="text-lg font-bold text-gray-900">Ongoing Support</h3>
               </div>
               <p className="text-gray-600 text-sm">
-                Looking for a credit-ready host country? We maintain a vetted network of high-integrity project developers and help navigate the LoA and corresponding adjustment process in host countries where we have relationships.
+                Annual governance and compliance reviews. Refresher training for new staff. Audit documentation and reporting support.
               </p>
-              <p className="text-xs text-blockchain-600 mt-3 font-medium">Find your next host country.</p>
-            </div>
-
-            <div className="p-6 bg-white rounded-xl border border-gray-200">
-              <div className="flex items-center mb-4">
-                <Globe className="w-6 h-6 text-purple-600 mr-3" />
-                <h3 className="text-lg font-bold text-gray-900">For Partners & Funders</h3>
-              </div>
-              <p className="text-gray-600 text-sm">
-                We work alongside development finance institutions, UN agencies, and philanthropic partners to advance host country readiness and compliance market access. Explore partnership opportunities.
-              </p>
-              <p className="text-xs text-purple-600 mt-3 font-medium">Let's collaborate.</p>
+              <p className="text-xs text-blockchain-600 mt-3 font-medium">Let's keep your registry running.</p>
             </div>
           </div>
 
-          {/* Trust Signals */}
+          {/* Trust Signals - Simplified */}
           <div className="mt-12 p-6 bg-carbon-50 rounded-xl border border-carbon-200 text-center">
             <p className="text-sm text-gray-600">
-              <span className="font-semibold">Trusted by:</span> Ministries of Environment • World Bank Climate Warehouse partners • Article 6 specialists • UNDP National Carbon Registry ecosystem
+              <span className="font-semibold">Independent. Experienced. Solo.</span> No software to sell. No vendor bias. Just implementation.
             </p>
           </div>
         </div>
