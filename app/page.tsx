@@ -6,6 +6,8 @@ import {
   CheckCircle2,
   ArrowRight,
   Building2,
+  Users,
+  Settings,
 } from 'lucide-react';
 
 export default function Home() {
